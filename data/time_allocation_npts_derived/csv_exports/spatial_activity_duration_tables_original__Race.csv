@@ -1,0 +1,63 @@
+Summaries,of,TIMEHOME
+By,levels,of,RACEX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,Population,984.1785,257.4312,8159
+RACEX,1,980.1365,258.1511,6784
+RACEX,2,1000.1846,254.9684,742
+RACEX,3,1007.1197,251.5037,610
+RACEX,98,1134.2857,153.0095,7
+RACEX,99,1015.375,255.0686,16
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,27,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEWORK
+By,levels,of,RACEX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,Population,259.7991,271.2033,8159
+RACEX,1,261.3309,270.1518,6784
+RACEX,2,246.8962,274.3311,742
+RACEX,3,259.4475,278.6401,610
+RACEX,98,123.5714,210.6481,7
+RACEX,99,281.6875,305.7113,16
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,28,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMESHOP
+By,levels,of,RACEX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,Population,21.291,56.2797,8159
+RACEX,1,20.6666,55.3973,6784
+RACEX,2,22.8935,63.1892,742
+RACEX,3,25.3279,55.4281,610
+RACEX,98,73.1429,102.5775,7
+RACEX,99,35.125,79.3195,16
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,29,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEOTHE
+By,levels,of,RACEX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,Population,109.905,158.4693,8159
+RACEX,1,111.9176,159.1752,6784
+RACEX,2,109.2695,163.2855,742
+RACEX,3,90.7525,144.9655,610
+RACEX,98,52.7143,66.8349,7
+RACEX,99,41.25,71.7742,16
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,30,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMETRAV
+By,levels,of,RACEX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,Population,64.8264,62.2463,8159
+RACEX,1,65.9484,64.3023,6784
+RACEX,2,60.7561,51.2383,742
+RACEX,3,57.3525,49.9593,610
+RACEX,98,56.2857,49.6176,7
+RACEX,99,66.5625,42.497,16
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,31,SPSS/PC+,1996-12-20 00:00:00
+This,procedure,was,completed,at,10:58:17
+means,tables=,timehome,timework,timeshop,timeothe,timetrav,by,hhmsax.
+*****,Given,WORKSPACE,allows,for,6858,Cells,with,1,Dimensions,for,MEANS.

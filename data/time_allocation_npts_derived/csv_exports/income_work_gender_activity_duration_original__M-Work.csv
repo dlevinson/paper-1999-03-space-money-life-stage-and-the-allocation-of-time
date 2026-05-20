@@ -1,0 +1,6 @@
+,TIMEHOME,,,,,TIMEWORK,,,,,TIMESHOP,,,,,TIMEOTHE,,,,,TIMETRAV,,,,,SUMMARY
+,Mean,Std Dev,Cases,Diff Means,,Mean,Std Dev,Cases,Diff Means,,Mean,Std Dev,Cases,Diff Means,,Mean,Std Dev,Cases,Diff Means,,Mean,Std Dev,Cases,Diff Means
+Total,923.2232,252.6334,3656,,,336.0845,276.2167,3656,,,13.922,46.1658,3656,,,97.4352,150.9923,3656,,,69.3351,65.0494,3656,,,=V3+Q3+#REF!+G3+B3
+Income Level,,,,,,,,,,,"Male, Worker"
+1,988.5385,251.2787,26,=(B5-B$3)/SQRT(C5^2/D5+C$3^2/D$3),,317.9615,288.2867,26,=(G5-G$3)/SQRT(H5^2/I5+H$3^2/I$3),,4.6154,17.2002,26,=(L5-L$3)/SQRT(M5^2/N5+M$3^2/N$3),,76.2308,111.7427,26,=(Q5-Q$3)/SQRT(R5^2/S5+R$3^2/S$3),,52.6538,44.5448,26.0009765625,=,,=V5+Q5+#REF!+G5+B5
+2

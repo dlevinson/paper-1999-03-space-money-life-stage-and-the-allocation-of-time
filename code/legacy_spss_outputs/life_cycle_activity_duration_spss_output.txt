@@ -1,0 +1,1438 @@
+           SPSS/PC+ The Statistical Package for IBM PC                  2/12/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page   2                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:08:21
+
+select if (agex ge 18 and agex le 65).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+select if (daytot=1440).
+
+compute nsw=ns1+ns2.
+compute tsw=ts1+ts2.
+
+means /tables layx0 timework layx3 layx4 layx5 layx6 layx8 layx10 layx11.
+The raw data or transformation pass is proceeding  
+   8159 cases are written to the compressed active file.
+-------------------------------------------------------------------------------
+Page   3                          SPSS/PC+                              2/12/97
+
+ERROR   10105, (End of command)
+ONLY ONE DIMENSION ON MEANS COMMAND--Check for a missing BY keyword.  The   
+form should be VARA BY VARB.    
+This command not executed.
+
+
+-------------------------------------------------------------------------------
+Page   4                          SPSS/PC+                              2/12/97
+
+compute x=1.
+means /tables layx0 timework layx3 layx4 layx5 layx6 layx8 layx10 layx11 by x.
+The raw data or transformation pass is proceeding  
+   8159 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   5                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX0                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       984.1785   257.4312     8159
+
+X              1.00                         984.1785   257.4312     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page   6                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEWORK                                           
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       259.7991   271.2033     8159
+
+X              1.00                         259.7991   271.2033     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page   7                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX3                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        21.2910    56.2797     8159
+
+X              1.00                          21.2910    56.2797     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page   8                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX4                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        25.2097    74.4965     8159
+
+X              1.00                          25.2097    74.4965     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page   9                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX5                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        21.3004    81.1289     8159
+
+X              1.00                          21.3004    81.1289     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  10                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX6                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.7422    15.9579     8159
+
+X              1.00                           1.7422    15.9579     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  11                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX8                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        26.7031    85.5561     8159
+
+X              1.00                          26.7031    85.5561     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  12                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX10                                             
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        32.5632    88.8244     8159
+
+X              1.00                          32.5632    88.8244     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  13                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX11                                             
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.3938    21.7380     8159
+
+X              1.00                           1.3938    21.7380     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  14                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:15:52
+means /tables ts0 tsw ts3 ts4 ts5 ts6 ts8 ts10 ts11 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  15                          SPSS/PC+                              2/12/97
+
+Summaries of   TS0                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        28.8282    40.1563     8159
+
+X              1.00                          28.8282    40.1563     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  16                          SPSS/PC+                              2/12/97
+
+Summaries of   TSW                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        12.7154    21.5041     8159
+
+X              1.00                          12.7154    21.5041     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  17                          SPSS/PC+                              2/12/97
+
+Summaries of   TS3                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         4.7786    11.9100     8159
+
+X              1.00                           4.7786    11.9100     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  18                          SPSS/PC+                              2/12/97
+
+Summaries of   TS4                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         6.7794    19.2772     8159
+
+X              1.00                           6.7794    19.2772     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  19                          SPSS/PC+                              2/12/97
+
+Summaries of   TS5                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.8698     7.1684     8159
+
+X              1.00                           1.8698     7.1684     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  20                          SPSS/PC+                              2/12/97
+
+Summaries of   TS6                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .3902     3.1939     8159
+
+X              1.00                            .3902     3.1939     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  21                          SPSS/PC+                              2/12/97
+
+Summaries of   TS8                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         3.4851    12.6211     8159
+
+X              1.00                           3.4851    12.6211     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  22                          SPSS/PC+                              2/12/97
+
+Summaries of   TS10                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         5.1218    16.3974     8159
+
+X              1.00                           5.1218    16.3974     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  23                          SPSS/PC+                              2/12/97
+
+Summaries of   TS11                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .2196     3.1862     8159
+
+X              1.00                            .2196     3.1862     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  24                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:17:03
+means /tables ns0 nsw ns3 ns4 ns5 ns6 ns8 ns10 ns11 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  25                          SPSS/PC+                              2/12/97
+
+Summaries of   NS0                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.4170      .6900     8159
+
+X              1.00                           1.4170      .6900     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  26                          SPSS/PC+                              2/12/97
+
+Summaries of   NSW                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .5973      .6636     8159
+
+X              1.00                            .5973      .6636     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  27                          SPSS/PC+                              2/12/97
+
+Summaries of   NS3                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .4138      .7015     8159
+
+X              1.00                            .4138      .7015     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  28                          SPSS/PC+                              2/12/97
+
+Summaries of   NS4                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .4661      .9412     8159
+
+X              1.00                            .4661      .9412     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  29                          SPSS/PC+                              2/12/97
+
+Summaries of   NS5                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .1223      .3870     8159
+
+X              1.00                            .1223      .3870     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  30                          SPSS/PC+                              2/12/97
+
+Summaries of   NS6                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .0219      .1562     8159
+
+X              1.00                            .0219      .1562     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  31                          SPSS/PC+                              2/12/97
+
+Summaries of   NS8                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .1890      .5069     8159
+
+X              1.00                            .1890      .5069     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  32                          SPSS/PC+                              2/12/97
+
+Summaries of   NS10                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .2798      .6095     8159
+
+X              1.00                            .2798      .6095     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  33                          SPSS/PC+                              2/12/97
+
+Summaries of   NS11                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          .0118      .1456     8159
+
+X              1.00                            .0118      .1456     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  34                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:18:12
+
+means /tables timehome by relate by sexx.
+
+***** Given WORKSPACE allows for  5611 Cells with  2 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  35                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEHOME                                           
+By levels of   RELATE                                             
+               SEXX                                               
+       
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         984.1785   257.4312     8159
+       
+RELATE              1                         951.7458   260.6294      657
+  SEXX              1                         932.9640   269.6432      333
+  SEXX              2                         971.0494   249.9752      324
+       
+RELATE              2                         961.4885   255.8680     2860
+  SEXX              1                         942.7871   261.0712     1489
+  SEXX              2                         981.7994   248.5998     1371
+       
+RELATE              3                        1048.0833   251.3536       84
+  SEXX              1                        1154.0000   305.3961        6
+  SEXX              2                        1039.9359   247.1922       78
+       
+RELATE              4                        1004.7092   256.9751     1726
+  SEXX              1                         931.7864   248.8447      899
+-------------------------------------------------------------------------------
+Page  36                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEHOME
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+  SEXX              2                        1083.9807   241.8840      827
+       
+RELATE              5                         982.6233   258.5448      146
+  SEXX              1                        1045.4444   298.3550       27
+  SEXX              2                         968.3697   247.8287      119
+       
+RELATE              6                         981.0131   254.0990     1449
+  SEXX              1                         937.0082   259.8552      731
+  SEXX              2                        1025.8148   240.1251      718
+       
+RELATE              7                         973.6441   242.1163       59
+  SEXX              1                         910.0625   281.7052       16
+  SEXX              2                         997.3023   224.7147       43
+       
+RELATE              8                         973.4725   254.0989      726
+  SEXX              1                         955.5212   258.2525      378
+  SEXX              2                         992.9713   248.4108      348
+-------------------------------------------------------------------------------
+Page  37                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEHOME
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+       
+RELATE              9                        1180.1667   222.3839       24
+  SEXX              1                        1195.6154   214.3683       13
+  SEXX              2                        1161.9091   240.6742       11
+       
+RELATE             10                        1110.7553   238.5247      425
+  SEXX              1                        1105.3673   246.0371      196
+  SEXX              2                        1115.3668   232.3444      229
+       
+RELATE             98                        1019.6667    92.5005        3
+  SEXX              1                        1020.0000      .0000        1
+  SEXX              2                        1019.5000   130.8148        2
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  38                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:19:37
+means /tables timework by relate by sexx.
+
+***** Given WORKSPACE allows for  5611 Cells with  2 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  39                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEWORK                                           
+By levels of   RELATE                                             
+               SEXX                                               
+       
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         259.7991   271.2033     8159
+       
+RELATE              1                         272.5495   266.9376      657
+  SEXX              1                         291.8348   270.0007      333
+  SEXX              2                         252.7284   262.6942      324
+       
+RELATE              2                         280.9640   274.1318     2860
+  SEXX              1                         305.2371   283.4445     1489
+  SEXX              2                         254.6018   261.2038     1371
+       
+RELATE              3                         176.7738   245.8831       84
+  SEXX              1                         132.5000   217.2499        6
+  SEXX              2                         180.1795   248.8780       78
+       
+RELATE              4                         253.1454   274.4867     1726
+  SEXX              1                         341.0011   279.7634      899
+-------------------------------------------------------------------------------
+Page  40                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEWORK
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+  SEXX              2                         157.6409   233.9267      827
+       
+RELATE              5                         252.9041   258.8503      146
+  SEXX              1                         192.8148   246.5020       27
+  SEXX              2                         266.5378   260.6388      119
+       
+RELATE              6                         264.7177   270.1157     1449
+  SEXX              1                         315.3885   279.8863      731
+  SEXX              2                         213.1295   249.6202      718
+       
+RELATE              7                         220.2034   248.6571       59
+  SEXX              1                         256.0000   267.7798       16
+  SEXX              2                         206.8837   243.1167       43
+       
+RELATE              8                         266.6460   267.2599      726
+  SEXX              1                         288.7593   275.5628      378
+  SEXX              2                         242.6264   256.1752      348
+-------------------------------------------------------------------------------
+Page  41                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEWORK
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+       
+RELATE              9                            .0000      .0000       24
+  SEXX              1                            .0000      .0000       13
+  SEXX              2                            .0000      .0000       11
+       
+RELATE             10                         136.9976   229.2001      425
+  SEXX              1                         135.0153   230.0708      196
+  SEXX              2                         138.6943   228.9427      229
+       
+RELATE             98                            .0000      .0000        3
+  SEXX              1                            .0000      .0000        1
+  SEXX              2                            .0000      .0000        2
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  42                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:20:17
+means /tables timeshop by relate by sexx.
+
+***** Given WORKSPACE allows for  5611 Cells with  2 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  43                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMESHOP                                           
+By levels of   RELATE                                             
+               SEXX                                               
+       
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          21.2910    56.2797     8159
+       
+RELATE              1                          22.7062    58.9361      657
+  SEXX              1                          16.0300    46.2274      333
+  SEXX              2                          29.5679    69.0273      324
+       
+RELATE              2                          20.1115    54.4652     2860
+  SEXX              1                          15.6803    49.3130     1489
+  SEXX              2                          24.9241    59.2017     1371
+       
+RELATE              3                          24.8690    45.1818       84
+  SEXX              1                          15.5000    20.3347        6
+  SEXX              2                          25.5897    46.5429       78
+       
+RELATE              4                          21.7769    58.9701     1726
+  SEXX              1                          13.1068    44.4226      899
+-------------------------------------------------------------------------------
+Page  44                          SPSS/PC+                              2/12/97
+Criterion Variable TIMESHOP
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+  SEXX              2                          31.2019    70.3289      827
+       
+RELATE              5                          19.7740    39.5132      146
+  SEXX              1                           5.1852    12.3445       27
+  SEXX              2                          23.0840    42.7225      119
+       
+RELATE              6                          20.6549    50.2127     1449
+  SEXX              1                          12.3789    37.4250      731
+  SEXX              2                          29.0808    59.3710      718
+       
+RELATE              7                          31.1356    64.0542       59
+  SEXX              1                           6.4375    11.4191       16
+  SEXX              2                          40.3256    72.8049       43
+       
+RELATE              8                          21.8650    72.1465      726
+  SEXX              1                          15.1534    55.9911      378
+  SEXX              2                          29.1552    85.8304      348
+-------------------------------------------------------------------------------
+Page  45                          SPSS/PC+                              2/12/97
+Criterion Variable TIMESHOP
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+       
+RELATE              9                          28.3333    38.0693       24
+  SEXX              1                          31.1538    37.9777       13
+  SEXX              2                          25.0000    39.7492       11
+       
+RELATE             10                          24.1553    47.5648      425
+  SEXX              1                          16.4235    32.7685      196
+  SEXX              2                          30.7729    56.5115      229
+       
+RELATE             98                          42.3333    73.3235        3
+  SEXX              1                            .0000      .0000        1
+  SEXX              2                          63.5000    89.8026        2
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  46                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:20:50
+means /tables timeothe by relate by sexx.
+
+***** Given WORKSPACE allows for  5611 Cells with  2 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  47                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   RELATE                                             
+               SEXX                                               
+       
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         109.9050   158.4693     8159
+       
+RELATE              1                         124.2390   167.0959      657
+  SEXX              1                         127.6036   177.5547      333
+  SEXX              2                         120.7809   155.8165      324
+       
+RELATE              2                         111.5171   162.0791     2860
+  SEXX              1                         109.4862   163.5293     1489
+  SEXX              2                         113.7228   160.5199     1371
+       
+RELATE              3                         132.2500   159.1083       84
+  SEXX              1                         110.6667   171.6120        6
+  SEXX              2                         133.9103   159.1748       78
+       
+RELATE              4                          97.7480   142.2697     1726
+  SEXX              1                          86.1924   139.0678      899
+-------------------------------------------------------------------------------
+Page  48                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEOTHE
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+  SEXX              2                         110.3096   144.7106      827
+       
+RELATE              5                         121.4384   154.2717      146
+  SEXX              1                         131.4074   167.9293       27
+  SEXX              2                         119.1765   151.6705      119
+       
+RELATE              6                         107.7516   163.5349     1449
+  SEXX              1                         106.2038   165.8583      731
+  SEXX              2                         109.3273   161.2354      718
+       
+RELATE              7                         151.7627   180.1788       59
+  SEXX              1                         188.6250   167.5951       16
+  SEXX              2                         138.0465   184.6349       43
+       
+RELATE              8                         112.3278   160.3207      726
+  SEXX              1                         110.0952   158.9960      378
+  SEXX              2                         114.7529   161.9414      348
+-------------------------------------------------------------------------------
+Page  49                          SPSS/PC+                              2/12/97
+Criterion Variable TIMEOTHE
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+       
+RELATE              9                         160.9167   179.6518       24
+  SEXX              1                         145.8462   168.2547       13
+  SEXX              2                         178.7273   199.0382       11
+       
+RELATE             10                         111.2824   155.1736      425
+  SEXX              1                         121.7398   156.8849      196
+  SEXX              2                         102.3319   153.4707      229
+       
+RELATE             98                         268.6667   191.6151        3
+  SEXX              1                         240.0000      .0000        1
+  SEXX              2                         283.0000   268.7006        2
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  50                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:21:31
+means /tables timetrav by relate by sexx.
+
+***** Given WORKSPACE allows for  5611 Cells with  2 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  51                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMETRAV                                           
+By levels of   RELATE                                             
+               SEXX                                               
+       
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                          64.8264    62.2463     8159
+       
+RELATE              1                          68.7595    65.7737      657
+  SEXX              1                          71.5676    73.6935      333
+  SEXX              2                          65.8735    56.4602      324
+       
+RELATE              2                          65.9189    60.4833     2860
+  SEXX              1                          66.8093    60.8595     1489
+  SEXX              2                          64.9519    60.0792     1371
+       
+RELATE              3                          58.0238    51.1461       84
+  SEXX              1                          27.3333    31.4113        6
+  SEXX              2                          60.3846    51.7364       78
+       
+RELATE              4                          62.6205    58.5165     1726
+  SEXX              1                          67.9132    63.3566      899
+-------------------------------------------------------------------------------
+Page  52                          SPSS/PC+                              2/12/97
+Criterion Variable TIMETRAV
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+  SEXX              2                          56.8670    52.1862      827
+       
+RELATE              5                          63.2603    57.0549      146
+  SEXX              1                          65.1481    61.5459       27
+  SEXX              2                          62.8319    56.2537      119
+       
+RELATE              6                          65.8627    66.4500     1449
+  SEXX              1                          69.0205    64.6662      731
+  SEXX              2                          62.6476    68.1129      718
+       
+RELATE              7                          63.2542    63.8386       59
+  SEXX              1                          78.8750    99.4464       16
+  SEXX              2                          57.4419    44.3661       43
+       
+RELATE              8                          65.6887    68.5318      726
+  SEXX              1                          70.4709    74.0114      378
+  SEXX              2                          60.4943    61.7215      348
+-------------------------------------------------------------------------------
+Page  53                          SPSS/PC+                              2/12/97
+Criterion Variable TIMETRAV
+
+
+Variable        Value  Label                      Mean    Std Dev    Cases
+
+       
+RELATE              9                          70.5833    68.7351       24
+  SEXX              1                          67.3846    77.7491       13
+  SEXX              2                          74.3636    59.8620       11
+       
+RELATE             10                          56.8094    59.4814      425
+  SEXX              1                          61.4541    70.2325      196
+  SEXX              2                          52.8341    48.2330      229
+       
+RELATE             98                         109.3333    70.0095        3
+  SEXX              1                         180.0000      .0000        1
+  SEXX              2                          74.0000    48.0833        2
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  54                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:22:06
+-------------------------------------------------------------------------------
+Page  55                          SPSS/PC+                              2/12/97
+
+DOS vi spatial5.ctl.
+-------------------------------------------------------------------------------
+Page  56                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:27:22
+means /tables ns0 nsw ns3 ns4 ns5 ns6 ns8 ns10 ns11 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+--Interrupted--
+
+
+-------------------------------------------------------------------------------
+Page  57                          SPSS/PC+                              2/12/97
+
+process if (ns0 .gt. 0).
+
+ERROR      31, Text: .                   
+INVALID OPERATOR ON PROCESS IF COMMAND--Valid operators are EQ, NE, GE,     
+GT, LE, LT, and their symbolic equivalents.     
+This command not executed.
+
+
+-------------------------------------------------------------------------------
+Page  58                          SPSS/PC+                              2/12/97
+
+process if (ns0 gt 0).
+means /tables layx0 ts0 ns0 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  59                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX0                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       984.1785   257.4312     8159
+
+X              1.00                         984.1785   257.4312     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  60                          SPSS/PC+                              2/12/97
+
+Summaries of   TS0                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        28.8282    40.1563     8159
+
+X              1.00                          28.8282    40.1563     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  61                          SPSS/PC+                              2/12/97
+
+Summaries of   NS0                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.4170      .6900     8159
+
+X              1.00                           1.4170      .6900     8159
+
+  Total Cases =    8159
+-------------------------------------------------------------------------------
+Page  62                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:29:46
+
+process if (nsw gt 0).
+means /tables timework tsw nsw by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  63                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEWORK                                           
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       492.1525   158.0119     4307
+
+X              1.00                         492.1525   158.0119     4307
+
+  Total Cases =    4307
+-------------------------------------------------------------------------------
+Page  64                          SPSS/PC+                              2/12/97
+
+Summaries of   TSW                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        24.0875    24.5379     4307
+
+X              1.00                          24.0875    24.5379     4307
+
+  Total Cases =    4307
+-------------------------------------------------------------------------------
+Page  65                          SPSS/PC+                              2/12/97
+
+Summaries of   NSW                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.1314      .4794     4307
+
+X              1.00                           1.1314      .4794     4307
+
+  Total Cases =    4307
+-------------------------------------------------------------------------------
+Page  66                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:30:44
+
+process if (ns3 gt 0).
+means /tables layx3 ts3 ns3 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  67                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX3                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        65.6016    82.7885     2648
+
+X              1.00                          65.6016    82.7885     2648
+
+  Total Cases =    2648
+-------------------------------------------------------------------------------
+Page  68                          SPSS/PC+                              2/12/97
+
+Summaries of   TS3                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        14.7239    17.0495     2648
+
+X              1.00                          14.7239    17.0495     2648
+
+  Total Cases =    2648
+-------------------------------------------------------------------------------
+Page  69                          SPSS/PC+                              2/12/97
+
+Summaries of   NS3                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.2749      .6469     2648
+
+X              1.00                           1.2749      .6469     2648
+
+  Total Cases =    2648
+-------------------------------------------------------------------------------
+Page  70                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:31:37
+
+process if (ns4 gt 0).
+means /tables layx4 ts4 ns4 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  71                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX4                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        89.5845   118.1442     2296
+
+X              1.00                          89.5845   118.1442     2296
+
+  Total Cases =    2296
+-------------------------------------------------------------------------------
+Page  72                          SPSS/PC+                              2/12/97
+
+Summaries of   TS4                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        24.0910    30.0619     2296
+
+X              1.00                          24.0910    30.0619     2296
+
+  Total Cases =    2296
+-------------------------------------------------------------------------------
+Page  73                          SPSS/PC+                              2/12/97
+
+Summaries of   NS4                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.6564     1.0846     2296
+
+X              1.00                           1.6564     1.0846     2296
+
+  Total Cases =    2296
+-------------------------------------------------------------------------------
+Page  74                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:32:23
+
+process if (ns5 gt 0).
+means /tables layx5 ts5 ns5 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  75                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX5                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       203.5012   160.7080      854
+
+X              1.00                         203.5012   160.7080      854
+
+  Total Cases =     854
+-------------------------------------------------------------------------------
+Page  76                          SPSS/PC+                              2/12/97
+
+Summaries of   TS5                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        17.8642    14.3314      854
+
+X              1.00                          17.8642    14.3314      854
+
+  Total Cases =     854
+-------------------------------------------------------------------------------
+Page  77                          SPSS/PC+                              2/12/97
+
+Summaries of   NS5                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.1686      .4564      854
+
+X              1.00                           1.1686      .4564      854
+
+  Total Cases =     854
+-------------------------------------------------------------------------------
+Page  78                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:33:04
+
+process if (ns6 gt 0).
+means /tables layx6 ts6 ns6 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  79                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX6                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        85.1198    73.3147      167
+
+X              1.00                          85.1198    73.3147      167
+
+  Total Cases =     167
+-------------------------------------------------------------------------------
+Page  80                          SPSS/PC+                              2/12/97
+
+Summaries of   TS6                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        19.0659    11.9629      167
+
+X              1.00                          19.0659    11.9629      167
+
+  Total Cases =     167
+-------------------------------------------------------------------------------
+Page  81                          SPSS/PC+                              2/12/97
+
+Summaries of   NS6                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.0719      .2590      167
+
+X              1.00                           1.0719      .2590      167
+
+  Total Cases =     167
+-------------------------------------------------------------------------------
+Page  82                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:34:20
+
+process if (ns8 gt 0).
+means /tables layx8 ts8 ns8 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  83                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX8                                              
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       177.9992   147.8996     1224
+
+X              1.00                         177.9992   147.8996     1224
+
+  Total Cases =    1224
+-------------------------------------------------------------------------------
+Page  84                          SPSS/PC+                              2/12/97
+
+Summaries of   TS8                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        23.2312    24.5654     1224
+
+X              1.00                          23.2312    24.5654     1224
+
+  Total Cases =    1224
+-------------------------------------------------------------------------------
+Page  85                          SPSS/PC+                              2/12/97
+
+Summaries of   NS8                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.2598      .6035     1224
+
+X              1.00                           1.2598      .6035     1224
+
+  Total Cases =    1224
+-------------------------------------------------------------------------------
+Page  86                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:35:10
+
+process if (ns10 gt 0).
+means /tables layx10 ts10 ns10 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  87                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX10                                             
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       150.3582   136.8400     1767
+
+X              1.00                         150.3582   136.8400     1767
+
+  Total Cases =    1767
+-------------------------------------------------------------------------------
+Page  88                          SPSS/PC+                              2/12/97
+
+Summaries of   TS10                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        23.6497    28.3483     1767
+
+X              1.00                          23.6497    28.3483     1767
+
+  Total Cases =    1767
+-------------------------------------------------------------------------------
+Page  89                          SPSS/PC+                              2/12/97
+
+Summaries of   NS10                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.2920      .6382     1767
+
+X              1.00                           1.2920      .6382     1767
+
+  Total Cases =    1767
+-------------------------------------------------------------------------------
+Page  90                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:36:20
+
+process if (ns11 gt 0).
+means /tables layx11 ts11 ns11 by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  91                          SPSS/PC+                              2/12/97
+
+Summaries of   LAYX11                                             
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       153.6757   170.5439       74
+
+X              1.00                         153.6757   170.5439       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  92                          SPSS/PC+                              2/12/97
+
+Summaries of   TS11                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        24.2162    23.3545       74
+
+X              1.00                          24.2162    23.3545       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  93                          SPSS/PC+                              2/12/97
+
+Summaries of   NS11                                               
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.2973      .8231       74
+
+X              1.00                           1.2973      .8231       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  94                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:37:44
+
+*means /tables timehome by relate by sexx.
+*means /tables timework by relate by sexx.
+*means /tables timeshop by relate by sexx.
+*means /tables timeothe by relate by sexx.
+*means /tables timetrav by relate by sexx.
+-------------------------------------------------------------------------------
+Page  95                          SPSS/PC+                              2/12/97
+
+compute tso=ts4+ts5+ts6+ts8+ts10.
+compute nso=ns4+ns5+ns6+ns8+ns10.
+process if (ns11 gt 0).
+means /tables timeothe tso nso by x.
+The raw data or transformation pass is proceeding  
+   8159 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  96                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       260.6486   209.8573       74
+
+X              1.00                         260.6486   209.8573       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  97                          SPSS/PC+                              2/12/97
+
+Summaries of   TSO                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        15.2162    19.8986       74
+
+X              1.00                          15.2162    19.8986       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  98                          SPSS/PC+                              2/12/97
+
+Summaries of   NSO                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.2432     1.5243       74
+
+X              1.00                           1.2432     1.5243       74
+
+  Total Cases =      74
+-------------------------------------------------------------------------------
+Page  99                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:40:36
+
+*means /tables timehome by relate by sexx.
+*means /tables timework by relate by sexx.
+*means /tables timeshop by relate by sexx.
+*means /tables timeothe by relate by sexx.
+*means /tables timetrav by relate by sexx.
+-------------------------------------------------------------------------------
+Page 100                          SPSS/PC+                              2/12/97
+
+process if (timeothe gt 0).
+means /tables timeothe tso nso by x.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 101                          SPSS/PC+                              2/12/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       192.7590   167.5525     4652
+
+X              1.00                         192.7590   167.5525     4652
+
+  Total Cases =    4652
+-------------------------------------------------------------------------------
+Page 102                          SPSS/PC+                              2/12/97
+
+Summaries of   TSO                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        30.2369    32.7430     4652
+
+X              1.00                          30.2369    32.7430     4652
+
+  Total Cases =    4652
+-------------------------------------------------------------------------------
+Page 103                          SPSS/PC+                              2/12/97
+
+Summaries of   NSO                                                
+By levels of   X                                                  
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         1.8418     1.2915     4652
+
+X              1.00                           1.8418     1.2915     4652
+
+  Total Cases =    4652
+-------------------------------------------------------------------------------
+Page 104                          SPSS/PC+                              2/12/97
+
+This procedure was completed at  9:41:47
+
+*means /tables timehome by relate by sexx.
+*means /tables timework by relate by sexx.
+*means /tables timeshop by relate by sexx.
+*means /tables timeothe by relate by sexx.
+*means /tables timetrav by relate by sexx.
+-------------------------------------------------------------------------------
+Page 105                          SPSS/PC+                              2/12/97
+
+FINISH.
+
+End of Include file.
+

@@ -1,0 +1,97 @@
+Summaries,of,TIMEHOME
+By,levels,of,WORKX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,984.1785,257.4312,8159
+WORKX,0,1176.0466,208.4525,1482,31.3559540847708
+WORKX,1,941.5922,247.7029,6677,-10.2352919215509
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,15,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEWORK
+By,levels,of,WORKX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,259.7991,271.2033,8159
+WORKX,0,9.3941,65.3009,1482,-72.6129846708111
+WORKX,1,315.378,268.1866,6677,12.4946426941302
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,16,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMESHOP
+By,levels,of,WORKX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,21.291,56.2797,8159
+WORKX,0,30.7193,59.2643,1482,5.67706846213788
+WORKX,1,19.1983,55.3829,6677,-2.27307961920898
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,17,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEOTHE
+By,levels,of,WORKX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,109.905,158.4693,8159
+WORKX,0,165.0695,185.9259,1482,10.7356798696856
+WORKX,1,97.6609,148.9735,6677,-4.83926076483848
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,18,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMETRAV
+By,levels,of,WORKX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,64.8264,62.2463,8159
+WORKX,0,58.7706,66.2414,1482,-3.26711176586131
+WORKX,1,66.1706,61.2483,6677,1.32018054892123
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,19,SPSS/PC+,1996-12-20 00:00:00
+This,procedure,was,completed,at,10:56:13
+means,tables=,timehome,timework,timeshop,timeothe,timetrav,by,sexx.
+*****,Given,WORKSPACE,allows,for,6858,Cells,with,1,Dimensions,for,MEANS.
+-------------------------------------------------------------------------------
+Page,20,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEHOME
+By,levels,of,SEXX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,984.1785,257.4312,8159
+SEXX,1,949.1881,261.0453,4089,-7.02797342975129
+SEXX,2,1019.3322,248.8737,4070,7.27636956418031
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,21,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEWORK
+By,levels,of,SEXX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,259.7991,271.2033,8159
+SEXX,1,301.9073,280.6311,4089,7.91895746932258
+SEXX,2,217.4943,254.5005,4070,-8.47302320217397
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,22,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMESHOP
+By,levels,of,SEXX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,21.291,56.2797,8159
+SEXX,1,14.4793,45.7463,4089,-7.18014832126349
+SEXX,2,28.1344,64.4548,4070,5.765324964764
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,23,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEOTHE
+By,levels,of,SEXX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,109.905,158.4693,8159
+SEXX,1,106.5009,159.8251,4089,-1.11475635316264
+SEXX,2,113.3251,157.0408,4070,1.13143533425505
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,24,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMETRAV
+By,levels,of,SEXX
+Variable,Value,Label,Mean,Std,Dev,Cases
+For,Entire,64.8264,62.2463,8159
+SEXX,1,67.9244,65.1757,4089,2.5179999774192
+SEXX,2,61.714,59.0018,4070,-2.69856826596677
+,Total,Cases,=,8159
+,,Home,,Work,,Shop,,Other,,Travel,,N
+,,Mean,Std.Dev.,Mean,Std.Dev.,Mean,Std.Dev.,Mean,Std.Dev.,Mean,Std.Dev.
+,Male,949.1881,261.0453,301.9073,280.6311,14.4793,45.7463,106.5009,159.8251,67.9244,65.1757,4089
+,Female,1019.3322,248.8737,217.4943,254.5005,28.1344,64.4548,113.3251,157.0408,61.714,59.0018,4070

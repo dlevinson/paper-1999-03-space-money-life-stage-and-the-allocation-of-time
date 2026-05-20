@@ -1,0 +1,1649 @@
+           SPSS/PC+ The Statistical Package for IBM PC                  2/10/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page   2                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:10:34
+
+select if (agex ge 18 and agex le 65).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+if (agex .lt.20) agey=20.
+
+ERROR     222, TEXT: .                       
+UNDEFINED VARIABLE NAME ON TRANSFORMATION--Check for a misspelled variable  
+name.   
+This command not executed.
+
+
+-------------------------------------------------------------------------------
+Page   3                          SPSS/PC+                              2/10/97
+
+compute agey=0.
+if (agex .lt.20) agey=20.
+
+ERROR     222, TEXT: .                       
+UNDEFINED VARIABLE NAME ON TRANSFORMATION--Check for a misspelled variable  
+name.   
+This command not executed.
+
+
+-------------------------------------------------------------------------------
+Page   4                          SPSS/PC+                              2/10/97
+
+compute agey=0.
+if (agex .lt. 20) agey=20.
+
+ERROR     222, TEXT: .                       
+UNDEFINED VARIABLE NAME ON TRANSFORMATION--Check for a misspelled variable  
+name.   
+This command not executed.
+
+
+-------------------------------------------------------------------------------
+Page   5                          SPSS/PC+                              2/10/97
+
+compute agey=0.
+
+if (agex lt 20) agey=20.
+if (agex lt 20 and agex  lt 30) agey=30.
+if (agex ge 30 and agex  lt 40) agey=40.
+if (agex ge 40 and agex  lt 50) agey=50.
+if (agex ge 50 and agex  lt 60) agey=60.
+if (agex ge 60) agey=65.
+select if (daytot=1440).
+
+select if (workx=0 and sexx=1).
+means /tables timehome by hhincx.
+The raw data or transformation pass is proceeding  
+    433 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   6                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1168.4203   225.7907      433
+
+HHINCX            1                        1071.9500   264.3416       20
+HHINCX            2                        1146.3000   251.6454       50
+HHINCX            3                        1190.9655   199.5077       29
+HHINCX            4                        1200.6667   216.1971       36
+HHINCX            5                        1210.8667   202.8554       30
+HHINCX            6                        1178.9375   189.1961       48
+HHINCX            7                        1233.5135   175.0361       37
+HHINCX            8                        1217.9000   197.8928       30
+HHINCX            9                        1220.6667   199.3680       27
+HHINCX           10                        1119.1053   218.0937       19
+HHINCX           11                        1100.4815   238.2299       27
+HHINCX           12                        1178.9524   197.1899       21
+HHINCX           13                        1195.6667   204.3417       18
+HHINCX           14                         996.7000   337.9678       10
+-------------------------------------------------------------------------------
+Page   7                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEHOME
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                        1135.4000   205.5622        5
+HHINCX           16                        1120.0000   308.8106        3
+HHINCX           17                        1091.3043   318.4754       23
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page   8                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:18:45
+means /tables timework by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   9                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.3349    79.8819      433
+
+HHINCX            1                          28.6500   128.1267       20
+HHINCX            2                           9.5000    67.1751       50
+HHINCX            3                          17.9655    96.7473       29
+HHINCX            4                          34.1667   136.1924       36
+HHINCX            5                            .0000      .0000       30
+HHINCX            6                           1.7708    12.2687       48
+HHINCX            7                           8.9189    38.2814       37
+HHINCX            8                            .0000      .0000       30
+HHINCX            9                            .0000      .0000       27
+HHINCX           10                          27.8947   121.5903       19
+HHINCX           11                            .0000      .0000       27
+HHINCX           12                          25.0000   114.5644       21
+HHINCX           13                           7.2222    30.6413       18
+HHINCX           14                          55.5000   175.5064       10
+-------------------------------------------------------------------------------
+Page  10                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEWORK
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                            .0000      .0000        5
+HHINCX           16                         181.6667   314.6559        3
+HHINCX           17                          11.9565    57.3415       23
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  11                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:18:50
+means /tables timeshop by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  12                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        19.1848    41.7914      433
+
+HHINCX            1                          10.9000    18.7080       20
+HHINCX            2                          11.4600    20.0878       50
+HHINCX            3                          26.6897    70.8495       29
+HHINCX            4                          13.1389    29.3862       36
+HHINCX            5                          18.3000    32.8026       30
+HHINCX            6                          21.9792    40.7131       48
+HHINCX            7                          37.1622    60.5945       37
+HHINCX            8                          19.4000    32.4405       30
+HHINCX            9                          21.0000    40.1152       27
+HHINCX           10                          20.2632    43.1417       19
+HHINCX           11                          22.4074    33.1874       27
+HHINCX           12                          21.6667    68.7040       21
+HHINCX           13                          20.0000    52.8527       18
+HHINCX           14                           1.5000     4.7434       10
+-------------------------------------------------------------------------------
+Page  13                          SPSS/PC+                              2/10/97
+Criterion Variable TIMESHOP
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                            .0000      .0000        5
+HHINCX           16                          17.0000    14.7309        3
+HHINCX           17                          11.7391    23.8656       23
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  14                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:19:06
+means /tables timeothe by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  15                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       183.0462   205.5784      433
+
+HHINCX            1                         280.6000   256.7926       20
+HHINCX            2                         204.5000   224.7615       50
+HHINCX            3                         156.8276   192.2864       29
+HHINCX            4                         140.6667   178.8642       36
+HHINCX            5                         170.7333   187.6778       30
+HHINCX            6                         171.7083   168.1251       48
+HHINCX            7                         102.0000   135.4663       37
+HHINCX            8                         138.5667   158.7220       30
+HHINCX            9                         148.8519   181.1076       27
+HHINCX           10                         229.0526   175.9045       19
+HHINCX           11                         258.6667   237.5442       27
+HHINCX           12                         165.5714   179.5404       21
+HHINCX           13                         146.4444   177.6051       18
+HHINCX           14                         312.1000   312.3596       10
+-------------------------------------------------------------------------------
+Page  16                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEOTHE
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         264.4000   182.5015        5
+HHINCX           16                          64.3333    79.3494        3
+HHINCX           17                         278.7391   318.4397       23
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  17                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:19:23
+means /tables timetrav by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  18                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        56.0139    65.0979      433
+
+HHINCX            1                          47.9000    28.8187       20
+HHINCX            2                          68.2400    89.4807       50
+HHINCX            3                          47.5517    52.6292       29
+HHINCX            4                          51.3611    57.5456       36
+HHINCX            5                          40.1000    29.3872       30
+HHINCX            6                          65.6042    67.0426       48
+HHINCX            7                          58.4054    72.7994       37
+HHINCX            8                          64.1333   108.7464       30
+HHINCX            9                          49.4815    53.6559       27
+HHINCX           10                          43.6842    40.9730       19
+HHINCX           11                          58.4444    34.9828       27
+HHINCX           12                          48.8095    37.4201       21
+HHINCX           13                          70.6667    97.6633       18
+HHINCX           14                          74.2000    76.4109       10
+-------------------------------------------------------------------------------
+Page  19                          SPSS/PC+                              2/10/97
+Criterion Variable TIMETRAV
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          40.2000    48.1685        5
+HHINCX           16                          57.0000    41.5812        3
+HHINCX           17                          46.2609    33.7211       23
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  20                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:19:34
+
+means /tables timehome by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  21                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1168.4203   225.7907      433
+
+AGEY            .00                        1131.4615   236.6393      117
+AGEY          30.00                         993.7727   235.9525       44
+AGEY          40.00                        1204.8704   202.1346       54
+AGEY          50.00                        1228.2000   236.5791       40
+AGEY          60.00                        1196.0000   223.0557       74
+AGEY          65.00                        1222.3462   172.8847      104
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  22                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:20:03
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  23                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.3349    79.8819      433
+
+AGEY            .00                          21.3761   101.8411      117
+AGEY          30.00                          13.3636    88.6443       44
+AGEY          40.00                          22.5926   104.2210       54
+AGEY          50.00                            .0000      .0000       40
+AGEY          60.00                           8.9865    59.1896       74
+AGEY          65.00                           7.6923    59.1359      104
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  24                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:20:06
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  25                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        19.1848    41.7914      433
+
+AGEY            .00                          21.6581    52.1930      117
+AGEY          30.00                          16.3864    57.2360       44
+AGEY          40.00                          11.8889    32.2020       54
+AGEY          50.00                          15.8750    28.3804       40
+AGEY          60.00                          18.0541    31.2756       74
+AGEY          65.00                          23.4519    36.0010      104
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  26                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:20:21
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  27                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       183.0462   205.5784      433
+
+AGEY            .00                         207.7778   215.2132      117
+AGEY          30.00                         368.3409   243.1220       44
+AGEY          40.00                         150.4444   179.7033       54
+AGEY          50.00                         121.2000   175.4143       40
+AGEY          60.00                         164.2973   201.0259       74
+AGEY          65.00                         130.8846   152.0012      104
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  28                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:20:26
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  29                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        56.0139    65.0979      433
+
+AGEY            .00                          57.7265    55.7390      117
+AGEY          30.00                          48.1364    43.9897       44
+AGEY          40.00                          50.2037    54.9303       54
+AGEY          50.00                          74.7250   111.6933       40
+AGEY          60.00                          52.6622    61.7934       74
+AGEY          65.00                          55.6250    65.5187      104
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  30                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:20:29
+-------------------------------------------------------------------------------
+Page  31                          SPSS/PC+                              2/10/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  32                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:21:39
+
+select if (agex ge 18 and agex le 65).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+
+
+
+
+compute agey=0.
+
+if (agex lt 20) agey=20.
+if (agex ge 20 and agex  lt 30) agey=30.
+if (agex ge 30 and agex  lt 40) agey=40.
+if (agex ge 40 and agex  lt 50) agey=50.
+if (agex ge 50 and agex  lt 60) agey=60.
+if (agex ge 60) agey=65.
+select if (daytot=1440).
+
+select if (workx=0 and sexx=2).
+means /tables timehome by hhincx.
+The raw data or transformation pass is proceeding  
+   1049 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  34                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1179.1945   200.8891     1049
+
+HHINCX            1                        1121.7255   176.0856       51
+HHINCX            2                        1160.5733   229.5356       75
+HHINCX            3                        1199.5156   182.1046       64
+HHINCX            4                        1226.4125   167.4969       80
+HHINCX            5                        1164.4247   194.9176       73
+HHINCX            6                        1174.5814   221.6818       86
+HHINCX            7                        1192.3721   213.6838       86
+HHINCX            8                        1202.8592   207.8531       71
+HHINCX            9                        1173.1471   211.8488       68
+HHINCX           10                        1183.5484   214.3567       62
+HHINCX           11                        1186.8478   175.9540       46
+HHINCX           12                        1146.8750   227.3419       64
+HHINCX           13                        1165.0870   188.2184       23
+HHINCX           14                        1169.2813   184.3654       32
+-------------------------------------------------------------------------------
+Page  35                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEHOME
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                        1239.5238   194.9078       21
+HHINCX           16                        1183.7826   195.6939       23
+HHINCX           17                        1171.4355   184.5527      124
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  36                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:26:57
+means /tables timework by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  37                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         7.7674    58.1945     1049
+
+HHINCX            1                          12.2549    66.7481       51
+HHINCX            2                          10.8000    66.7946       75
+HHINCX            3                            .0000      .0000       64
+HHINCX            4                            .0000      .0000       80
+HHINCX            5                          19.4247    98.5175       73
+HHINCX            6                            .0000      .0000       86
+HHINCX            7                           6.6860    56.3164       86
+HHINCX            8                           3.8732    32.6365       71
+HHINCX            9                           3.9706    30.3777       68
+HHINCX           10                           9.1935    62.0827       62
+HHINCX           11                          23.7609    97.3468       46
+HHINCX           12                          26.2500   124.0136       64
+HHINCX           13                            .0000      .0000       23
+HHINCX           14                           1.2500     7.0711       32
+-------------------------------------------------------------------------------
+Page  38                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEWORK
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          13.1905    60.4464       21
+HHINCX           16                           6.3043    30.2346       23
+HHINCX           17                           2.9839    28.3124      124
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  39                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:27:12
+means /tables timeshop by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  40                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        35.4805    64.5431     1049
+
+HHINCX            1                          31.1569    60.4554       51
+HHINCX            2                          21.9200    57.7662       75
+HHINCX            3                          32.4063    63.6101       64
+HHINCX            4                          32.4250    54.9015       80
+HHINCX            5                          31.3836    64.4256       73
+HHINCX            6                          26.4302    61.4102       86
+HHINCX            7                          38.8256    54.8015       86
+HHINCX            8                          43.1408    67.0989       71
+HHINCX            9                          37.5588    69.1961       68
+HHINCX           10                          41.9677    60.5903       62
+HHINCX           11                          53.2609    99.7854       46
+HHINCX           12                          35.6875    65.4328       64
+HHINCX           13                          22.1304    41.3283       23
+HHINCX           14                          41.5625    62.4613       32
+-------------------------------------------------------------------------------
+Page  41                          SPSS/PC+                              2/10/97
+Criterion Variable TIMESHOP
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          35.2381    52.1871       21
+HHINCX           16                          36.1304    49.9584       23
+HHINCX           17                          40.7419    73.6459      124
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  42                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:27:37
+means /tables timeothe by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  43                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       157.6492   176.7518     1049
+
+HHINCX            1                         203.1961   183.6217       51
+HHINCX            2                         197.2133   221.3191       75
+HHINCX            3                         149.9531   158.5583       64
+HHINCX            4                         128.7000   154.4651       80
+HHINCX            5                         162.3836   154.4558       73
+HHINCX            6                         181.7674   205.4732       86
+HHINCX            7                         154.4302   203.8499       86
+HHINCX            8                         135.6901   163.6094       71
+HHINCX            9                         159.5588   167.7528       68
+HHINCX           10                         141.1290   190.3034       62
+HHINCX           11                          98.9783   124.7973       46
+HHINCX           12                         162.7344   188.1158       64
+HHINCX           13                         202.0870   186.3369       23
+HHINCX           14                         159.0000   146.7794       32
+-------------------------------------------------------------------------------
+Page  44                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEOTHE
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         106.7143   182.5991       21
+HHINCX           16                         153.5652   188.7945       23
+HHINCX           17                         160.0726   147.6815      124
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  45                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:27:49
+means /tables timetrav by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  46                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        59.9085    66.7052     1049
+
+HHINCX            1                          71.6667    86.0964       51
+HHINCX            2                          49.4933    40.6117       75
+HHINCX            3                          58.1250    51.2456       64
+HHINCX            4                          52.4625    59.2608       80
+HHINCX            5                          62.3836    70.0896       73
+HHINCX            6                          57.2209    65.6748       86
+HHINCX            7                          47.6860    38.0091       86
+HHINCX            8                          54.4366    72.1419       71
+HHINCX            9                          65.7647    71.3003       68
+HHINCX           10                          64.1613    94.1704       62
+HHINCX           11                          77.1522    83.8721       46
+HHINCX           12                          68.4531    89.8855       64
+HHINCX           13                          50.6957    30.5055       23
+HHINCX           14                          68.9063    56.2187       32
+-------------------------------------------------------------------------------
+Page  47                          SPSS/PC+                              2/10/97
+Criterion Variable TIMETRAV
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          45.3333    40.9760       21
+HHINCX           16                          60.2174    67.1050       23
+HHINCX           17                          64.7661    63.2683      124
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  48                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:28:02
+
+means /tables timehome by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  49                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1179.1945   200.8891     1049
+
+AGEY          20.00                        1047.8387   216.2209       62
+AGEY          30.00                        1143.1018   213.4236      226
+AGEY          40.00                        1194.0339   192.4703      295
+AGEY          50.00                        1178.4063   207.2221      160
+AGEY          60.00                        1213.7188   175.1302      160
+AGEY          65.00                        1223.8904   179.7699      146
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  50                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:28:29
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  51                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         7.7674    58.1945     1049
+
+AGEY          20.00                           6.8065    39.4390       62
+AGEY          30.00                          13.3540    75.7966      226
+AGEY          40.00                           8.8475    68.3829      295
+AGEY          50.00                           7.8125    52.9557      160
+AGEY          60.00                           3.3625    38.0561      160
+AGEY          65.00                           2.1233    25.6558      146
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  52                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:28:34
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  53                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        35.4805    64.5431     1049
+
+AGEY          20.00                          36.6935    97.8756       62
+AGEY          30.00                          33.1814    70.6723      226
+AGEY          40.00                          35.5831    53.7311      295
+AGEY          50.00                          35.9250    59.7157      160
+AGEY          60.00                          39.1688    70.3923      160
+AGEY          65.00                          33.7877    55.7142      146
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  54                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:28:44
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  55                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       157.6492   176.7518     1049
+
+AGEY          20.00                         268.1613   220.7879       62
+AGEY          30.00                         195.8894   200.1163      226
+AGEY          40.00                         144.9797   162.8744      295
+AGEY          50.00                         147.5313   173.5436      160
+AGEY          60.00                         122.9250   141.5817      160
+AGEY          65.00                         126.2671   155.2189      146
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  56                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:28:54
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  57                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        59.9085    66.7052     1049
+
+AGEY          20.00                          80.5000    86.1725       62
+AGEY          30.00                          54.4735    52.2207      226
+AGEY          40.00                          56.5559    51.1524      295
+AGEY          50.00                          70.3250    93.9553      160
+AGEY          60.00                          60.8250    71.5051      160
+AGEY          65.00                          53.9315    61.6896      146
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  58                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:29:10
+-------------------------------------------------------------------------------
+Page  59                          SPSS/PC+                              2/10/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  60                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:29:38
+
+select if (agex ge 18 and agex le 65).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+
+
+
+
+compute agey=0.
+
+if (agex lt 20) agey=20.
+if (agex ge 20 and agex  lt 30) agey=30.
+if (agex ge 30 and agex  lt 40) agey=40.
+if (agex ge 40 and agex  lt 50) agey=50.
+if (agex ge 50 and agex  lt 60) agey=60.
+if (agex ge 60) agey=65.
+select if (daytot=1440).
+
+select if (workx=1 and sexx=1).
+means /tables timehome by hhincx.
+The raw data or transformation pass is proceeding  
+   3656 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  62                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       923.2232   252.6334     3656
+
+HHINCX            1                         988.5385   251.2787       26
+HHINCX            2                         967.5147   268.9628       68
+HHINCX            3                         991.0413   251.0264      121
+HHINCX            4                         949.5491   249.0095      173
+HHINCX            5                         948.6635   257.2507      211
+HHINCX            6                         940.5461   254.6357      293
+HHINCX            7                         931.7903   253.2512      329
+HHINCX            8                         930.1844   251.3395      358
+HHINCX            9                         911.7444   267.0147      270
+HHINCX           10                         893.7153   236.4749      274
+HHINCX           11                         920.9715   254.1766      246
+HHINCX           12                         937.2907   253.1107      258
+HHINCX           13                         904.2071   260.9920      140
+HHINCX           14                         897.6404   242.7529      178
+-------------------------------------------------------------------------------
+Page  63                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEHOME
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         928.4160   273.8296      125
+HHINCX           16                         893.1714   245.9141      105
+HHINCX           17                         891.2204   240.2641      481
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  64                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:35:11
+means /tables timework by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  65                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       336.0845   276.2167     3656
+
+HHINCX            1                         317.9615   288.2867       26
+HHINCX            2                         316.3235   280.2061       68
+HHINCX            3                         285.2810   262.0680      121
+HHINCX            4                         318.4162   276.8088      173
+HHINCX            5                         323.8246   279.6145      211
+HHINCX            6                         329.9488   279.9120      293
+HHINCX            7                         324.5046   275.4776      329
+HHINCX            8                         346.4246   274.6631      358
+HHINCX            9                         335.0704   286.4535      270
+HHINCX           10                         352.3139   270.4885      274
+HHINCX           11                         358.6463   278.9946      246
+HHINCX           12                         320.3450   279.7225      258
+HHINCX           13                         335.2214   288.4003      140
+HHINCX           14                         342.7416   267.9293      178
+-------------------------------------------------------------------------------
+Page  66                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEWORK
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         330.4000   271.3364      125
+HHINCX           16                         368.3714   270.9694      105
+HHINCX           17                         348.7775   272.8531      481
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  67                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:35:33
+means /tables timeshop by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  68                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.9220    46.1658     3656
+
+HHINCX            1                           4.6154    17.2002       26
+HHINCX            2                          13.1912    59.4448       68
+HHINCX            3                           8.6364    21.4266      121
+HHINCX            4                          12.3064    42.5414      173
+HHINCX            5                          16.1943    52.3601      211
+HHINCX            6                          10.6519    28.8183      293
+HHINCX            7                          20.0608    64.3689      329
+HHINCX            8                          10.5615    32.6708      358
+HHINCX            9                          14.7889    44.3798      270
+HHINCX           10                          14.4088    39.8817      274
+HHINCX           11                          14.4431    60.7524      246
+HHINCX           12                          16.2752    45.7229      258
+HHINCX           13                          10.6071    35.7881      140
+HHINCX           14                          18.0562    53.5493      178
+-------------------------------------------------------------------------------
+Page  69                          SPSS/PC+                              2/10/97
+Criterion Variable TIMESHOP
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          20.8800    74.5773      125
+HHINCX           16                          14.7048    46.5107      105
+HHINCX           17                          10.9002    34.5072      481
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  70                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:35:56
+means /tables timeothe by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  71                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.4352   150.9923     3656
+
+HHINCX            1                          76.2308   111.7427       26
+HHINCX            2                          90.1765   158.2258       68
+HHINCX            3                          98.2727   148.8479      121
+HHINCX            4                          96.2601   140.9893      173
+HHINCX            5                          97.3365   156.8923      211
+HHINCX            6                          98.0307   151.9134      293
+HHINCX            7                          96.1672   163.3945      329
+HHINCX            8                          92.1704   147.1210      358
+HHINCX            9                         106.7407   178.8347      270
+HHINCX           10                         106.4745   157.9622      274
+HHINCX           11                          73.2114   113.8484      246
+HHINCX           12                          91.4186   132.8554      258
+HHINCX           13                         112.0214   172.1409      140
+HHINCX           14                         101.6011   146.7529      178
+-------------------------------------------------------------------------------
+Page  72                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEOTHE
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          82.1520   122.0983      125
+HHINCX           16                          95.8571   139.3804      105
+HHINCX           17                         108.0582   155.4646      481
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  73                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:36:17
+means /tables timetrav by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  74                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        69.3351    65.0494     3656
+
+HHINCX            1                          52.6538    44.5448       26
+HHINCX            2                          52.7941    41.9966       68
+HHINCX            3                          56.7686    43.3403      121
+HHINCX            4                          63.4682    70.0858      173
+HHINCX            5                          53.9810    50.1262      211
+HHINCX            6                          60.8225    53.0224      293
+HHINCX            7                          67.4772    72.1362      329
+HHINCX            8                          60.6592    51.3309      358
+HHINCX            9                          71.6556    66.8255      270
+HHINCX           10                          73.0876    80.2500      274
+HHINCX           11                          72.7276    61.9468      246
+HHINCX           12                          74.6705    73.9555      258
+HHINCX           13                          77.9429    72.0173      140
+HHINCX           14                          79.9607    63.3090      178
+-------------------------------------------------------------------------------
+Page  75                          SPSS/PC+                              2/10/97
+Criterion Variable TIMETRAV
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          78.1520    79.4358      125
+HHINCX           16                          67.8952    49.6625      105
+HHINCX           17                          81.0437    67.4773      481
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  76                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:36:43
+
+means /tables timehome by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  77                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       923.2232   252.6334     3656
+
+AGEY          20.00                         964.9000   233.8988      110
+AGEY          30.00                         913.2286   255.8262      971
+AGEY          40.00                         916.0784   252.2670     1135
+AGEY          50.00                         930.4512   257.4588      809
+AGEY          60.00                         922.9289   243.9852      478
+AGEY          65.00                         972.3922   242.6641      153
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  78                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:37:08
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  79                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       336.0845   276.2167     3656
+
+AGEY          20.00                         239.7091   255.1215      110
+AGEY          30.00                         329.4037   278.8767      971
+AGEY          40.00                         349.3612   275.9649     1135
+AGEY          50.00                         330.3486   277.8127      809
+AGEY          60.00                         357.2636   271.7684      478
+AGEY          65.00                         313.4444   266.4255      153
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  80                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:37:25
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  81                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.9220    46.1658     3656
+
+AGEY          20.00                           5.1909    18.7071      110
+AGEY          30.00                          14.1988    54.1941      971
+AGEY          40.00                          14.6141    45.4555     1135
+AGEY          50.00                          13.0358    38.6155      809
+AGEY          60.00                          14.8054    46.7979      478
+AGEY          65.00                          15.2353    44.4214      153
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  82                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:37:58
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  83                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.4352   150.9923     3656
+
+AGEY          20.00                         165.2818   176.9826      110
+AGEY          30.00                         115.7755   167.6695      971
+AGEY          40.00                          89.4775   144.9919     1135
+AGEY          50.00                          92.7713   144.4906      809
+AGEY          60.00                          78.8724   132.0343      478
+AGEY          65.00                          73.9477   126.9454      153
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  84                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:38:29
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  85                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        69.3351    65.0494     3656
+
+AGEY          20.00                          64.9182    85.5140      110
+AGEY          30.00                          67.3934    60.0659      971
+AGEY          40.00                          70.4687    68.3999     1135
+AGEY          50.00                          73.3931    69.4719      809
+AGEY          60.00                          66.1297    54.1907      478
+AGEY          65.00                          64.9804    59.3159      153
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  86                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:38:54
+-------------------------------------------------------------------------------
+Page  87                          SPSS/PC+                              2/10/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  88                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:39:26
+
+select if (agex ge 18 and agex le 65).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+
+
+
+
+compute agey=0.
+
+if (agex lt 20) agey=20.
+if (agex ge 20 and agex  lt 30) agey=30.
+if (agex ge 30 and agex  lt 40) agey=40.
+if (agex ge 40 and agex  lt 50) agey=50.
+if (agex ge 50 and agex  lt 60) agey=60.
+if (agex ge 60) agey=65.
+select if (daytot=1440).
+
+select if (workx=1 and sexx=2).
+means /tables timehome by hhincx.
+The raw data or transformation pass is proceeding  
+   3021 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  90                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       963.8222   239.7678     3021
+
+HHINCX            1                         959.3478   254.9201       23
+HHINCX            2                        1021.7802   204.7022       91
+HHINCX            3                         948.0769   241.3044      104
+HHINCX            4                         964.9821   243.0970      223
+HHINCX            5                         955.9946   247.6139      184
+HHINCX            6                        1005.5668   248.8487      277
+HHINCX            7                         952.2901   236.2983      262
+HHINCX            8                         955.1065   241.4003      310
+HHINCX            9                         952.3141   240.3653      191
+HHINCX           10                         942.3167   243.7126      221
+HHINCX           11                         974.4683   225.6300      205
+HHINCX           12                         946.4257   244.0532      202
+HHINCX           13                         967.0374   246.7429      107
+HHINCX           14                         998.9008   252.3882      131
+-------------------------------------------------------------------------------
+Page  91                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEHOME
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         927.0102   215.4525       98
+HHINCX           16                         937.7206   226.8912       68
+HHINCX           17                         965.4691   235.2733      324
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  92                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:45:07
+means /tables timework by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  93                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       290.3191   255.9488     3021
+
+HHINCX            1                         285.3913   246.3268       23
+HHINCX            2                         275.1429   250.0359       91
+HHINCX            3                         304.7115   261.4456      104
+HHINCX            4                         306.6009   256.8750      223
+HHINCX            5                         314.8696   257.9286      184
+HHINCX            6                         260.7184   258.4254      277
+HHINCX            7                         270.7023   258.9826      262
+HHINCX            8                         295.4710   254.6606      310
+HHINCX            9                         303.5393   253.1420      191
+HHINCX           10                         296.3620   261.2431      221
+HHINCX           11                         287.6293   249.9052      205
+HHINCX           12                         294.6733   251.5816      202
+HHINCX           13                         274.4766   269.2241      107
+HHINCX           14                         258.5038   248.6500      131
+-------------------------------------------------------------------------------
+Page  94                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEWORK
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         315.2551   235.6704       98
+HHINCX           16                         306.3235   276.5698       68
+HHINCX           17                         295.6698   256.7570      324
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  95                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:45:38
+means /tables timeshop by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  96                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        25.5836    64.2385     3021
+
+HHINCX            1                          16.6522    49.0089       23
+HHINCX            2                          24.0549    54.6649       91
+HHINCX            3                          16.2500    41.4939      104
+HHINCX            4                          24.1031    83.7744      223
+HHINCX            5                          22.3804    56.2249      184
+HHINCX            6                          24.6390    50.4595      277
+HHINCX            7                          25.4847    62.8708      262
+HHINCX            8                          22.5484    52.2535      310
+HHINCX            9                          31.8010    74.5829      191
+HHINCX           10                          32.2579    76.8590      221
+HHINCX           11                          36.9756    98.8868      205
+HHINCX           12                          21.1931    52.9415      202
+HHINCX           13                          19.9346    41.1246      107
+HHINCX           14                          28.0229    52.2445      131
+-------------------------------------------------------------------------------
+Page  97                          SPSS/PC+                              2/10/97
+Criterion Variable TIMESHOP
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          22.2041    58.0227       98
+HHINCX           16                          27.5000    49.2525       68
+HHINCX           17                          25.0833    61.9767      324
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  98                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:46:03
+means /tables timeothe by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  99                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.9341   146.5176     3021
+
+HHINCX            1                         106.3043   146.8396       23
+HHINCX            2                          61.9560   121.6573       91
+HHINCX            3                         116.4135   175.4675      104
+HHINCX            4                          87.7534   119.8873      223
+HHINCX            5                          84.1957   125.2108      184
+HHINCX            6                          92.6390   142.2268      277
+HHINCX            7                         130.4580   169.2336      262
+HHINCX            8                         103.1806   161.8952      310
+HHINCX            9                          90.7382   143.1454      191
+HHINCX           10                         102.1086   159.0446      221
+HHINCX           11                          81.1561   126.4147      205
+HHINCX           12                         108.7822   149.0400      202
+HHINCX           13                         108.3364   154.6732      107
+HHINCX           14                          95.0153   149.8239      131
+-------------------------------------------------------------------------------
+Page 100                          SPSS/PC+                              2/10/97
+Criterion Variable TIMEOTHE
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                         108.0510   141.7131       98
+HHINCX           16                          96.7353   146.6797       68
+HHINCX           17                          89.7130   135.8880      324
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 101                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:46:41
+means /tables timetrav by hhincx.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 102                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   HHINCX                                             
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        62.3409    56.0784     3021
+
+HHINCX            1                          72.3043    66.7236       23
+HHINCX            2                          57.0659    46.0350       91
+HHINCX            3                          54.5481    46.6478      104
+HHINCX            4                          56.5605    44.5577      223
+HHINCX            5                          62.5598    46.6505      184
+HHINCX            6                          56.4368    54.3225      277
+HHINCX            7                          61.0649    49.9872      262
+HHINCX            8                          63.6935    62.4856      310
+HHINCX            9                          61.6073    57.3006      191
+HHINCX           10                          66.9548    88.7322      221
+HHINCX           11                          59.7707    42.9431      205
+HHINCX           12                          68.9257    58.9898      202
+HHINCX           13                          70.2150    58.4675      107
+HHINCX           14                          59.5573    45.2885      131
+-------------------------------------------------------------------------------
+Page 103                          SPSS/PC+                              2/10/97
+Criterion Variable TIMETRAV
+
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+HHINCX           15                          67.4796    50.2579       98
+HHINCX           16                          71.7206    59.1993       68
+HHINCX           17                          64.0648    51.9161      324
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 104                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:47:38
+
+means /tables timehome by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 105                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       963.8222   239.7678     3021
+
+AGEY          20.00                         944.3619   234.2790      105
+AGEY          30.00                         950.4416   243.9925      856
+AGEY          40.00                         969.4205   240.6216      899
+AGEY          50.00                         958.7433   235.6719      670
+AGEY          60.00                         977.8038   232.7308      367
+AGEY          65.00                        1018.1452   244.5678      124
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 106                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:47:49
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 107                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       290.3191   255.9488     3021
+
+AGEY          20.00                         252.1619   228.7583      105
+AGEY          30.00                         293.4498   254.4354      856
+AGEY          40.00                         285.7519   257.6753      899
+AGEY          50.00                         301.7731   258.4780      670
+AGEY          60.00                         288.3869   257.6998      367
+AGEY          65.00                         277.9597   257.1300      124
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 108                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:48:45
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 109                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        25.5836    64.2385     3021
+
+AGEY          20.00                          19.8000    90.8490      105
+AGEY          30.00                          21.7243    58.8862      856
+AGEY          40.00                          26.9755    61.3088      899
+AGEY          50.00                          27.7030    65.7425      670
+AGEY          60.00                          27.5777    71.5821      367
+AGEY          65.00                          29.6774    61.9711      124
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 110                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:49:01
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 111                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.9341   146.5176     3021
+
+AGEY          20.00                         153.1810   181.1570      105
+AGEY          30.00                         109.3154   159.3920      856
+AGEY          40.00                          97.3437   137.9903      899
+AGEY          50.00                          88.3328   141.8282      670
+AGEY          60.00                          86.2507   135.2499      367
+AGEY          65.00                          63.3226   119.3893      124
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 112                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:49:14
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page 113                          SPSS/PC+                              2/10/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        62.3409    56.0784     3021
+
+AGEY          20.00                          70.4952    77.9435      105
+AGEY          30.00                          65.0689    66.2102      856
+AGEY          40.00                          60.5083    45.1361      899
+AGEY          50.00                          63.4478    57.1825      670
+AGEY          60.00                          59.9809    48.7094      367
+AGEY          65.00                          50.8952    39.9666      124
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page 114                          SPSS/PC+                              2/10/97
+
+This procedure was completed at 12:49:37
+-------------------------------------------------------------------------------
+Page 115                          SPSS/PC+                              2/10/97
+
+FINISH.
+
+End of Include file.
+

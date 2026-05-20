@@ -1,0 +1,94 @@
+Convergence achieved after   6 iterations
+ 
+Analysis is based on   752 observations
+ 
+ 
+Likelihood with Zero Coefficients =-375297.6094
+ 
+Likelihood with Constants only    =-281194.0766
+ 
+Initial Likelihood                =-375297.6094
+ 
+ 
+Final value of Likelihood         =-276186.0329
+ 
+ 
+   "Rho-Squared" w.r.t. Zero      =  .2641
+ 
+   "Rho-Squared" w.r.t. Constants =  .0178
+ 
+ 
+ 
+ 
+ESTIMATES OBTAINED AT ITERATION  6
+ 
+ 
+Likelihood =-276186.0329
+ 
+ 
+            const1     const3     const4     male4       age4     density4
+ 
+ Estimate   .8508     -2.258     -1.488      .6829E-01 -.2276E-02  .1962E-01
+Std. Error   .300E-01   .771E-01   .534E-01   .156E-01   .741E-03   .305E-02
+"T" Ratio   28.4      -29.3      -27.9        4.4       -3.1        6.4
+ 
+ 
+          northeast4 southcent4   west4     pop90x4     hhinc4    winter4
+ 
+ Estimate  -.5096     -.3103     -.2654      .1549E-07 -.3120E-02 -.1840
+Std. Error   .230E-01   .271E-01   .232E-01   .139E-08   .201E-02   .226E-01
+"T" Ratio  -22.1      -11.4      -11.5       11.1       -1.6       -8.1
+ 
+ 
+           spring4    summer4    single4   childles4   ychi06 4   ychi15 4
+ 
+ Estimate  -.2194     -.1006     -.8505E-01 -.1464     -.2994     -.2801
+Std. Error   .215E-01   .225E-01   .111E-01   .251E-01   .290E-01   .280E-01
+"T" Ratio  -10.2       -4.5       -7.7       -5.8      -10.3      -10.0
+ 
+ 
+           nstops4     male3       age3     density3  northeast3 southcent3
+ 
+ Estimate   .3626     -.2578     -.1480E-02 -.1433E-01  .2035     -.4371
+Std. Error   .476E-02   .225E-01   .103E-02   .440E-02   .330E-01   .454E-01
+"T" Ratio   76.2      -11.5       -1.4       -3.3        6.2       -9.6
+  
+Hague Consulting Group                                                  Page 17
+ALOGIT Version 3F/2 (603)                                 18:02:03 on 11 Feb 97
+ 
+    ACTIVITY DURATION CHOICE MODEL   version 1.0             date 12/13/96
+ 
+ 
+            west3     pop90x3     hhinc3    winter3    spring3    summer3
+ 
+ Estimate  -.2397     -.5462E-08 -.1075E-01 -.3186E-02 -.7270E-01 -.5605E-01
+Std. Error   .359E-01   .184E-08   .282E-02   .327E-01   .309E-01   .320E-01
+"T" Ratio   -6.7       -3.0       -3.8        -.1       -2.4       -1.7
+ 
+ 
+           single3   childles3   ychi06 3   ychi15 3   nstops3     male1
+ 
+ Estimate  -.2026E-01 -.5725E-01 -.2239     -.3084      .6695     -.2735
+Std. Error   .147E-01   .350E-01   .403E-01   .395E-01   .220E-01   .898E-02
+"T" Ratio   -1.4       -1.6       -5.6       -7.8       30.5      -30.5
+ 
+ 
+             age1    northeast1 southcent1   west1     pop90x1     hhinc1
+ 
+ Estimate   .3740E-03 -.1223E-01 -.2066     -.1556      .6996E-09  .2799E-03
+Std. Error   .438E-03   .139E-01   .168E-01   .144E-01   .764E-09   .117E-02
+"T" Ratio     .9        -.9      -12.3      -10.8         .9         .2
+ 
+ 
+           winter1    spring1    summer1    single1   childles1   ychi06 1
+ 
+ Estimate   .2757E-01  .2707E-01  .4175E-01 -.9051E-01 -.1074     -.4638E-01
+Std. Error   .137E-01   .131E-01   .135E-01   .615E-02   .151E-01   .172E-01
+"T" Ratio    2.0        2.1        3.1      -14.7       -7.1       -2.7
+ 
+ 
+           ychi15 1   nstops1
+ 
+ Estimate  -.9175E-01 -.7354E-02
+Std. Error   .165E-01   .439E-02
+"T" Ratio   -5.5       -1.7

@@ -1,0 +1,201 @@
+REVISED TABLE 5
+Table 5: Weekday Activity Duration Choice			
+
+HOME
+
+SHOP
+
+OTHER
+
+Variable
+Estimate
+"T" Ratio
+Estimate
+"T" Ratio
+Estimate
+"T" Ratio
+constant [1]
+0.8508
+28.4
+-2.258
+-29.3
+-1.488
+-27.9
+male [1,0]
+-0.2735
+-30.5
+-0.2578
+-11.5
+0.0683
+4.4
+age [years]
+0.000374
+0.9
+-0.00148
+-1.4
+-0.00228
+-3.1
+
+
+
+
+
+
+
+Res. Density class [1-13]
+
+
+-0.0143
+-3.3
+0.0196
+6.4
+
+
+
+
+
+
+
+Northeast [1,0]
+-0.0122
+-0.9
+0.2035
+6.2
+-0.5096
+-22.1
+Southcent [1,0]
+-0.2066
+-12.3
+-0.4371
+-9.6
+-0.3103
+-11.4
+West [1,0]
+-0.1556
+-10.8
+-0.2397
+-6.7
+-0.2654
+-11.5
+
+
+
+
+
+
+
+1990 Metro Pop [millions]
+0.000700
+0.9
+-0.00546
+-3
+0.0155
+11.1
+Household Income [$]
+0.000280
+0.2
+-0.0108
+-3.8
+-0.00312
+-1.6
+
+
+
+
+
+
+
+Winter [1,0]
+0.0276
+2
+-0.00319
+-0.1
+-0.184
+-8.1
+Spring [1,0]
+0.0271
+2.1
+-0.0727
+-2.4
+-0.2194
+-10.2
+Summer [1,0]
+0.0418
+3.1
+-0.0561
+-1.7
+-0.1006
+-4.5
+
+
+
+
+
+
+
+Single [1,0]
+-0.0905
+-14.7
+-0.0203
+-1.4
+-0.0851
+-7.7
+Childless [1,0]
+-0.1074
+-7.1
+-0.0573
+-1.6
+-0.1464
+-5.8
+Young. Child 0-5 [1,0]
+-0.0464
+-2.7
+-0.2239
+-5.6
+-0.2994
+-10.3
+Young. Child 6-15 [1,0]
+-0.0918
+-5.5
+-0.3084
+-7.8
+-0.2801
+-10
+
+
+
+
+
+
+
+Activity Frequency [trips]
+-0.00735
+-1.7
+0.6695
+30.5
+0.3626
+76.2
+
+
+
+
+
+Summary Statistics
+Value
+
+
+Sample Size
+752
+Final value of likelihood
+-276186
+Likelihood with zero coefficients
+-375297
+Rho-Squared w.r.t. Zero
+0.2641
+Likelihood with constants only
+-281194
+Rho-Squared w.r.t. Constants
+0.0178
+Note: All parameter should be compared with that for work, for which all coefficients were forced to zero.  Sample of adults age 18 to 65.
+
+

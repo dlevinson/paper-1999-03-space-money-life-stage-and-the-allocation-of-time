@@ -1,0 +1,651 @@
+SPSS,/PC+ The Stat,istical Package f,or IBM PC,,1997-02-12 00:00:00
+"get file=""d:\np","ts\persagg.x""",.
+The SPSS/PC+ sy,stem file is,read from
+file d:\npt,s\persagg.x
+The file was cr,eated on 11/2,2/96 at 12:23:02
+and is titled,,SPSS/PC+
+The SPSS/PC+ sy,stem file con,tains
+"15609 cases,",each consisti,ng of
+67 variabl,es (including,system variables,).
+67 variabl,es will be us,ed in this sessio,n.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   2,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:08:21
+select if (agex,ge 18 and ag,ex le 65).
+compute timehom,e=layx0.
+compute timewor,k=layx1+layx2,.
+compute timesho,p=layx3.
+compute timeoth,e=layx4+layx5,=+layx6+layx7+layx,8+layx9+l,ayx10+layx1,1
+compute timetra,v=ts0+ts1+ts2,+ts3+ts4+ts5+ts6+,ts7+ts8+t,s9+ts10+ts1,1
+compute daytot=,timehome+time,work+timeshop+tim,eothe+tim,etrav.
+select if (dayt,ot=1440).
+compute nsw=ns1,=+ns2.
+compute tsw=ts1,=+ts2.
+means /tables l,ayx0 timework,layx3 layx4 layx,5 layx6 l,ayx8 layx10,layx11.
+The raw data or,transformati,on pass is procee,ding
+8159 cases a,re written to,the compressed a,ctive fil,e.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   3,,SPSS/PC+,,,1997-02-12 00:00:00
+"ERROR   10105,",(End of comma,nd)
+ONLY ONE DIMENS,ION ON MEANS,COMMAND--Check fo,r a missi,ng BY keywo,rd.  The
+form should be,VARA BY VARB.
+This command no,t executed.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   4,,SPSS/PC+,,,1997-02-12 00:00:00
+compute x=1.
+means /tables l,ayx0 timework,layx3 layx4 layx,5 layx6 l,ayx8 layx10,layx11 by x.
+The raw data or,transformati,on pass is procee,ding
+8159 cases a,re written to,the compressed a,ctive fil,e.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   5,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,9,84.1785,257.4312,8159
+X,1,9,84.1785,257.4312,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   6,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TIMEWORK
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,2,59.7991,271.2033,8159
+X,1,2,59.7991,271.2033,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   7,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,21.291,56.2797,8159
+X,1,,21.291,56.2797,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   8,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,25.2097,74.4965,8159
+X,1,,25.2097,74.4965,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page   9,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,21.3004,81.1289,8159
+X,1,,21.3004,81.1289,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  10,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.7422,15.9579,8159
+X,1,,1.7422,15.9579,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  11,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,26.7031,85.5561,8159
+X,1,,26.7031,85.5561,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  12,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,32.5632,88.8244,8159
+X,1,,32.5632,88.8244,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  13,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.3938,21.738,8159
+X,1,,1.3938,21.738,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  14,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:15:52
+means /tables t,s0 tsw ts3 ts,4 ts5 ts6 ts8 ts1,0 ts11 by,x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  15,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,28.8282,40.1563,8159
+X,1,,28.8282,40.1563,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  16,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TSW
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,12.7154,21.5041,8159
+X,1,,12.7154,21.5041,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  17,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,4.7786,11.91,8159
+X,1,,4.7786,11.91,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  18,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,6.7794,19.2772,8159
+X,1,,6.7794,19.2772,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  19,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.8698,7.1684,8159
+X,1,,1.8698,7.1684,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  20,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.3902,3.1939,8159
+X,1,,0.3902,3.1939,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  21,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,3.4851,12.6211,8159
+X,1,,3.4851,12.6211,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  22,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,5.1218,16.3974,8159
+X,1,,5.1218,16.3974,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  23,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.2196,3.1862,8159
+X,1,,0.2196,3.1862,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  24,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:17:03
+means /tables n,s0 nsw ns3 ns,4 ns5 ns6 ns8 ns1,0 ns11 by,x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  25,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.417,0.69,8159
+X,1,,1.417,0.69,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  26,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NSW
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.5973,0.6636,8159
+X,1,,0.5973,0.6636,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  27,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.4138,0.7015,8159
+X,1,,0.4138,0.7015,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  28,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.4661,0.9412,8159
+X,1,,0.4661,0.9412,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  29,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.1223,0.387,8159
+X,1,,0.1223,0.387,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  30,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.0219,0.1562,8159
+X,1,,0.0219,0.1562,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  31,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.189,0.5069,8159
+X,1,,0.189,0.5069,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  32,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.2798,0.6095,8159
+X,1,,0.2798,0.6095,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  33,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,0.0118,0.1456,8159
+X,1,,0.0118,0.1456,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  34,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:18:12
+means /tables t,imehome by re,late by sexx.
+***** Given WOR,KSPACE allows,for  5611 Cells,with  2 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  35,,SPSS/PC+,,,1997-02-12 00:00:00
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  54,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:22:06
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  55,,SPSS/PC+,,,1997-02-12 00:00:00
+DOS vi spatial5,.ctl.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  56,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:27:22
+means /tables n,s0 nsw ns3 ns,4 ns5 ns6 ns8 ns1,0 ns11 by,x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+--Interrupted--
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  57,,SPSS/PC+,,,1997-02-12 00:00:00
+process if (ns0,.gt. 0).
+"ERROR      31,",Text: .
+INVALID OPERATO,R ON PROCESS,IF COMMAND--Valid,operator,"s are EQ, N","E, GE,"
+"GT, LE, LT, and",their symbol,ic equivalents.
+This command no,t executed.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  58,,SPSS/PC+,,,1997-02-12 00:00:00
+process if (ns0,gt 0).
+means /tables l,ayx0 ts0 ns0,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  59,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,9,84.1785,257.4312,8159
+X,1,9,84.1785,257.4312,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  60,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,28.8282,40.1563,8159
+X,1,,28.8282,40.1563,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  61,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS0
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.417,0.69,8159
+X,1,,1.417,0.69,8159
+Total Cases =,8159
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  62,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:29:46
+process if (nsw,gt 0).
+means /tables t,imework tsw n,sw by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  63,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TIMEWORK
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,4,92.1525,158.0119,4307
+X,1,4,92.1525,158.0119,4307
+Total Cases =,4307
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  64,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TSW
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,24.0875,24.5379,4307
+X,1,,24.0875,24.5379,4307
+Total Cases =,4307
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  65,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NSW
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.1314,0.4794,4307
+X,1,,1.1314,0.4794,4307
+Total Cases =,4307
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  66,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:30:44
+process if (ns3,gt 0).
+means /tables l,ayx3 ts3 ns3,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  67,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,65.6016,82.7885,2648
+X,1,,65.6016,82.7885,2648
+Total Cases =,2648
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  68,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,14.7239,17.0495,2648
+X,1,,14.7239,17.0495,2648
+Total Cases =,2648
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  69,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS3
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.2749,0.6469,2648
+X,1,,1.2749,0.6469,2648
+Total Cases =,2648
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  70,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:31:37
+process if (ns4,gt 0).
+means /tables l,ayx4 ts4 ns4,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  71,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,89.5845,118.1442,2296
+X,1,,89.5845,118.1442,2296
+Total Cases =,2296
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  72,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,24.091,30.0619,2296
+X,1,,24.091,30.0619,2296
+Total Cases =,2296
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  73,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS4
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.6564,1.0846,2296
+X,1,,1.6564,1.0846,2296
+Total Cases =,2296
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  74,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:32:23
+process if (ns5,gt 0).
+means /tables l,ayx5 ts5 ns5,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  75,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,2,3.5012,160.708,854
+X,1,2,3.5012,160.708,854
+Total Cases =,854
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  76,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,17.8642,14.3314,854
+X,1,,17.8642,14.3314,854
+Total Cases =,854
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  77,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS5
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.1686,0.4564,854
+X,1,,1.1686,0.4564,854
+Total Cases =,854
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  78,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:33:04
+process if (ns6,gt 0).
+means /tables l,ayx6 ts6 ns6,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  79,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,85.1198,73.3147,167
+X,1,,85.1198,73.3147,167
+Total Cases =,167
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  80,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,19.0659,11.9629,167
+X,1,,19.0659,11.9629,167
+Total Cases =,167
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  81,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS6
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.0719,0.259,167
+X,1,,1.0719,0.259,167
+Total Cases =,167
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  82,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:34:20
+process if (ns8,gt 0).
+means /tables l,ayx8 ts8 ns8,by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  83,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,1,77.9992,147.8996,1224
+X,1,1,77.9992,147.8996,1224
+Total Cases =,1224
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  84,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,23.2312,24.5654,1224
+X,1,,23.2312,24.5654,1224
+Total Cases =,1224
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  85,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS8
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.2598,0.6035,1224
+X,1,,1.2598,0.6035,1224
+Total Cases =,1224
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  86,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:35:10
+process if (ns1,0 gt 0).
+means /tables l,ayx10 ts10 ns,10 by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  87,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,1,50.3582,136.84,1767
+X,1,1,50.3582,136.84,1767
+Total Cases =,1767
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  88,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,23.6497,28.3483,1767
+X,1,,23.6497,28.3483,1767
+Total Cases =,1767
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  89,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS10
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.292,0.6382,1767
+X,1,,1.292,0.6382,1767
+Total Cases =,1767
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  90,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:36:20
+process if (ns1,1 gt 0).
+means /tables l,ayx11 ts11 ns,11 by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  91,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,LAYX11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,1,53.6757,170.5439,74
+X,1,1,53.6757,170.5439,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  92,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TS11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,24.2162,23.3545,74
+X,1,,24.2162,23.3545,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  93,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NS11
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.2973,0.8231,74
+X,1,,1.2973,0.8231,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  94,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:37:44
+*means /tables,timehome by r,elate by sexx.
+*means /tables,timework by r,elate by sexx.
+*means /tables,timeshop by r,elate by sexx.
+*means /tables,timeothe by r,elate by sexx.
+*means /tables,timetrav by r,elate by sexx.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  95,,SPSS/PC+,,,1997-02-12 00:00:00
+compute tso=ts4,+ts5+ts6+ts8+,ts10.
+compute nso=ns4,+ns5+ns6+ns8+,ns10.
+process if (ns1,1 gt 0).
+means /tables t,imeothe tso n,so by x.
+The raw data or,transformati,on pass is procee,ding
+8159 cases a,re written to,the compressed a,ctive fil,e.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  96,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TIMEOTHE
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,2,60.6486,209.8573,74
+X,1,2,60.6486,209.8573,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  97,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TSO
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,15.2162,19.8986,74
+X,1,,15.2162,19.8986,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  98,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NSO
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.2432,1.5243,74
+X,1,,1.2432,1.5243,74
+Total Cases =,74
+---------------,-------------,-----------------,---------,-----------,--------------
+Page  99,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:40:36
+*means /tables,timehome by r,elate by sexx.
+*means /tables,timework by r,elate by sexx.
+*means /tables,timeshop by r,elate by sexx.
+*means /tables,timeothe by r,elate by sexx.
+*means /tables,timetrav by r,elate by sexx.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 100,,SPSS/PC+,,,1997-02-12 00:00:00
+process if (tim,eothe gt 0).
+means /tables t,imeothe tso n,so by x.
+***** Given WOR,KSPACE allows,for  6858 Cells,with  1 D,imensions f,or MEANS.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 101,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TIMEOTHE
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,1,92.759,167.5525,4652
+X,1,1,92.759,167.5525,4652
+Total Cases =,4652
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 102,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,TSO
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,30.2369,32.743,4652
+X,1,,30.2369,32.743,4652
+Total Cases =,4652
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 103,,SPSS/PC+,,,1997-02-12 00:00:00
+Summaries of,NSO
+By levels of,X
+Variable      V,alue  Label,,Mean,Std Dev,Cases
+For Entire Popu,lation,,1.8418,1.2915,4652
+X,1,,1.8418,1.2915,4652
+Total Cases =,4652
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 104,,SPSS/PC+,,,1997-02-12 00:00:00
+This procedure,was completed,at  9:41:47
+*means /tables,timehome by r,elate by sexx.
+*means /tables,timework by r,elate by sexx.
+*means /tables,timeshop by r,elate by sexx.
+*means /tables,timeothe by r,elate by sexx.
+*means /tables,timetrav by r,elate by sexx.
+---------------,-------------,-----------------,---------,-----------,--------------
+Page 105,,SPSS/PC+,,,1997-02-12 00:00:00
+FINISH.
+End of Include,file.
+_x001a_

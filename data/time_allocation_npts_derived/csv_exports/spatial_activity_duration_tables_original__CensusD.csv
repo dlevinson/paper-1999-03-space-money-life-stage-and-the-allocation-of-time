@@ -1,0 +1,93 @@
+Summaries,of,TIMEHOME
+By,levels,of,CENSDX
+Variable,Value,Mean,StdDev,N,,Cases
+,,984.1785,257.4312,8159
+Census Division
+New England,1,992.6132,252.0332,1091,=(C8-$C$6)/(SQRT((D8^2/E8)+($D$6^2/$E$6)))
+Middle Atlantic,2,990.7064,258.3235,1478,=(C9-$C$6)/(SQRT((D9^2/E9)+($D$6^2/$E$6)))
+East North Central,3,977.1837,262.2244,1579,=(C10-$C$6)/(SQRT((D10^2/E10)+($D$6^2/$E$6)))
+West North Central,4,963.2788,256.7626,391,=(C11-$C$6)/(SQRT((D11^2/E11)+($D$6^2/$E$6)))
+South Atlantic,5,965.4111,248.8555,1080,=(C12-$C$6)/(SQRT((D12^2/E12)+($D$6^2/$E$6)))
+East South Central,6,994.9474,249.5062,247,=(C13-$C$6)/(SQRT((D13^2/E13)+($D$6^2/$E$6)))
+West South Central,7,1003.08,264.243,675,=(C14-$C$6)/(SQRT((D14^2/E14)+($D$6^2/$E$6)))
+Mountain,8,986.7755,252.9487,392,=(C15-$C$6)/(SQRT((D15^2/E15)+($D$6^2/$E$6)))
+Pacific,9,987.6028,260.8465,1226,=(C16-$C$6)/(SQRT((D16^2/E16)+($D$6^2/$E$6)))
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,75,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEWORK
+By,levels,of,CENSDX
+Variable,Value,Mean,StdDev,N,Dev,Cases
+,Entire,259.7991,271.2033,8159
+Census Division
+New England,1,250.5188,270.5123,1091,=(C29-$C$27)/(SQRT((D29^2/E29)+($D$27^2/$E$27)))
+Middle Atlantic,2,258.6225,271.4167,1478,=(C30-$C$27)/(SQRT((D30^2/E30)+($D$27^2/$E$27)))
+East North Central,3,269.9823,270.7913,1579,=(C31-$C$27)/(SQRT((D31^2/E31)+($D$27^2/$E$27)))
+West North Central,4,251.5934,266.5235,391,=(C32-$C$27)/(SQRT((D32^2/E32)+($D$27^2/$E$27)))
+South Atlantic,5,282.2972,277.4134,1080,=(C33-$C$27)/(SQRT((D33^2/E33)+($D$27^2/$E$27)))
+East South Central,6,227.6761,267.2192,247,=(C34-$C$27)/(SQRT((D34^2/E34)+($D$27^2/$E$27)))
+West South Central,7,239.7141,266.1056,675,=(C35-$C$27)/(SQRT((D35^2/E35)+($D$27^2/$E$27)))
+Mountain,8,263.1122,267.931,392,=(C36-$C$27)/(SQRT((D36^2/E36)+($D$27^2/$E$27)))
+Pacific,9,255.6297,271.4458,1226,=(C37-$C$27)/(SQRT((D37^2/E37)+($D$27^2/$E$27)))
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,76,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMESHOP
+By,levels,of,CENSDX
+Variable,Value,Mean,StdDev,N,Dev,Cases
+,Entire,21.291,56.2797,8159
+Census Division
+New England,1,19.2566,49.3564,1091,=(C50-$C$48)/(SQRT((D50^2/E50)+($D$48^2/$E$48)))
+Middle Atlantic,2,23.4675,57.2722,1478,=(C51-$C$48)/(SQRT((D51^2/E51)+($D$48^2/$E$48)))
+East North Central,3,21.0956,57.4774,1579,=(C52-$C$48)/(SQRT((D52^2/E52)+($D$48^2/$E$48)))
+West North Central,4,18.8261,47.1063,391,=(C53-$C$48)/(SQRT((D53^2/E53)+($D$48^2/$E$48)))
+South Atlantic,5,20.1713,51.12,1080,=(C54-$C$48)/(SQRT((D54^2/E54)+($D$48^2/$E$48)))
+East South Central,6,22.1619,82.9396,247,=(C55-$C$48)/(SQRT((D55^2/E55)+($D$48^2/$E$48)))
+West South Central,7,23.0756,71.5642,675,=(C56-$C$48)/(SQRT((D56^2/E56)+($D$48^2/$E$48)))
+Mountain,8,25.1454,51.2751,392,=(C57-$C$48)/(SQRT((D57^2/E57)+($D$48^2/$E$48)))
+Pacific,9,20.1109,51.4617,1226,=(C58-$C$48)/(SQRT((D58^2/E58)+($D$48^2/$E$48)))
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,77,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMEOTHE
+By,levels,of,CENSDX
+Variable,Value,Mean,StdDev,N,Dev,Cases
+,Entire,109.905,158.4693,8159
+Census Division
+New England,1,113.0357,155.008,1091,=(C71-$C$69)/(SQRT((D71^2/E71)+($D$69^2/$E$69)))
+Middle Atlantic,2,96.7476,152.7267,1478,=(C72-$C$69)/(SQRT((D72^2/E72)+($D$69^2/$E$69)))
+East North Central,3,109.4794,158.6308,1579,=(C73-$C$69)/(SQRT((D73^2/E73)+($D$69^2/$E$69)))
+West North Central,4,145.0256,173.6274,391,=(C74-$C$69)/(SQRT((D74^2/E74)+($D$69^2/$E$69)))
+South Atlantic,5,106.638,152.8246,1080,=(C75-$C$69)/(SQRT((D75^2/E75)+($D$69^2/$E$69)))
+East South Central,6,132.1903,185.5379,247,=(C76-$C$69)/(SQRT((D76^2/E76)+($D$69^2/$E$69)))
+West South Central,7,112.1052,161.7403,675,=(C77-$C$69)/(SQRT((D77^2/E77)+($D$69^2/$E$69)))
+Mountain,8,104.898,155.6027,392,=(C78-$C$69)/(SQRT((D78^2/E78)+($D$69^2/$E$69)))
+Pacific,9,111.106,159.3227,1226,=(C79-$C$69)/(SQRT((D79^2/E79)+($D$69^2/$E$69)))
+,Total,Cases,=,8159
+-------------------------------------------------------------------------------
+Page,78,SPSS/PC+,1996-12-20 00:00:00
+Summaries,of,TIMETRAV
+By,levels,of,CENSDX
+Variable,Value,Mean,StdDev,N,Dev,Cases
+,Entire,64.8264,62.2463,8159
+Census Division
+New England,1,64.5756,61.9196,1091,=(C92-$C$90)/(SQRT((D92^2/E92)+($D$90^2/$E$90)))
+Middle Atlantic,2,70.456,65.357,1478,=(C93-$C$90)/(SQRT((D93^2/E93)+($D$90^2/$E$90)))
+East North Central,3,62.259,66.3961,1579,=(C94-$C$90)/(SQRT((D94^2/E94)+($D$90^2/$E$90)))
+West North Central,4,61.2762,53.724,391,=(C95-$C$90)/(SQRT((D95^2/E95)+($D$90^2/$E$90)))
+South Atlantic,5,65.4824,55.0481,1080,=(C96-$C$90)/(SQRT((D96^2/E96)+($D$90^2/$E$90)))
+East South Central,6,63.0243,58.9074,247,=(C97-$C$90)/(SQRT((D97^2/E97)+($D$90^2/$E$90)))
+West South Central,7,62.0252,63.8259,675,=(C98-$C$90)/(SQRT((D98^2/E98)+($D$90^2/$E$90)))
+Mountain,8,60.0689,50.5518,392,=(C99-$C$90)/(SQRT((D99^2/E99)+($D$90^2/$E$90)))
+Pacific,9,65.5506,64.4735,1226,=(C100-$C$90)/(SQRT((D100^2/E100)+($D$90^2/$E$90)))
+,Total,Cases,=,8159
+Census Division,HOME,WORK,SHOP,OTHER,TRAVEL
+New England,992.6132,250.5188,19.2566,113.0357,64.5756
+Middle Atlantic,990.7064,258.6225,23.4675,96.7476,70.456
+East North Central,977.1837,269.9823,21.0956,109.4794,62.259
+West North Central,963.2788,251.5934,18.8261,145.0256,61.2762
+South Atlantic,965.4111,282.2972,20.1713,106.638,65.4824
+East South Central,994.9474,227.6761,22.1619,132.1903,63.0243
+West South Central,1003.08,239.7141,23.0756,112.1052,62.0252
+Mountain,986.7755,263.1122,25.1454,104.898,60.0689
+Pacific,987.6028,255.6297,20.1109,111.106,65.5506

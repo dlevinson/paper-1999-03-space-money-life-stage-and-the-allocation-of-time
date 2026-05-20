@@ -1,0 +1,822 @@
+           SPSS/PC+ The Statistical Package for IBM PC                  2/11/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page   2                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:43:18
+
+select if (agex ge 18 and agex le 65).
+select if (workx=0 and sexx=1).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+select if (daytot=1440).
+
+compute agey=0.
+
+if (agex le 20) agey=20.
+if (agex gt 20 and agex  le 25) agey=25.
+if (agex gt 25 and agex  le 30) agey=30.
+if (agex gt 30 and agex  le 35) agey=35.
+if (agex gt 35 and agex  le 40) agey=40.
+if (agex gt 40 and agex  le 45) agey=45.
+if (agex gt 45 and agex  le 50) agey=50.
+if (agex gt 50 and agex  le 55) agey=55.
+if (agex gt 55 and agex  le 60) agey=60.
+if (agex gt 60) agey=65.
+
+means /tables timehome by agey.
+The raw data or transformation pass is proceeding  
+    433 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   4                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1168.4203   225.7907      433
+
+AGEY          20.00                        1047.0000   250.6390       60
+AGEY          25.00                        1128.6571   239.4466       70
+AGEY          30.00                        1140.5789   226.0825       38
+AGEY          35.00                        1178.9200   204.8709       25
+AGEY          40.00                        1222.8750   217.4743       24
+AGEY          45.00                        1207.2083   263.5419       24
+AGEY          50.00                        1244.0625   184.2670       16
+AGEY          55.00                        1167.6552   274.7598       29
+AGEY          60.00                        1206.6531   191.9343       49
+AGEY          65.00                        1225.2041   169.0621       98
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page   5                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:44:57
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   6                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.3349    79.8819      433
+
+AGEY          20.00                          10.7500    76.1421       60
+AGEY          25.00                          22.8000   108.5462       70
+AGEY          30.00                          22.3158   102.0109       38
+AGEY          35.00                          43.2000   149.5819       25
+AGEY          40.00                           5.8333    28.5774       24
+AGEY          45.00                            .0000      .0000       24
+AGEY          50.00                            .0000      .0000       16
+AGEY          55.00                            .0000      .0000       29
+AGEY          60.00                          16.2245    74.4041       49
+AGEY          65.00                           6.8367    59.6268       98
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page   7                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:45:08
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page   8                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        19.1848    41.7914      433
+
+AGEY          20.00                          13.9667    49.4454       60
+AGEY          25.00                          23.2714    60.1216       70
+AGEY          30.00                          23.7105    41.4004       38
+AGEY          35.00                          13.4000    44.4382       25
+AGEY          40.00                           9.1250    14.5163       24
+AGEY          45.00                          24.7917    33.6167       24
+AGEY          50.00                            .9375     2.7195       16
+AGEY          55.00                          11.0000    18.5068       29
+AGEY          60.00                          26.0612    40.4137       49
+AGEY          65.00                          22.2347    34.1307       98
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page   9                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:45:26
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  10                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       183.0462   205.5784      433
+
+AGEY          20.00                         318.2000   244.2316       60
+AGEY          25.00                         207.7714   219.3577       70
+AGEY          30.00                         196.6842   209.8353       38
+AGEY          35.00                         163.0800   168.5240       25
+AGEY          40.00                         144.1250   207.3074       24
+AGEY          45.00                         107.1667   182.4766       24
+AGEY          50.00                         160.0625   158.7952       16
+AGEY          55.00                         209.0000   256.4377       29
+AGEY          60.00                         135.0816   165.3104       49
+AGEY          65.00                         130.6122   146.4761       98
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  11                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:45:45
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  12                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        56.0139    65.0979      433
+
+AGEY          20.00                          50.0833    47.3513       60
+AGEY          25.00                          57.5000    51.6627       70
+AGEY          30.00                          56.7105    60.8334       38
+AGEY          35.00                          41.4000    32.4268       25
+AGEY          40.00                          58.0417    73.9856       24
+AGEY          45.00                         100.8333   134.5678       24
+AGEY          50.00                          34.9375    44.0840       16
+AGEY          55.00                          52.3448    61.1802       29
+AGEY          60.00                          55.9796    61.6135       49
+AGEY          65.00                          55.1122    66.5816       98
+
+  Total Cases =     433
+-------------------------------------------------------------------------------
+Page  13                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:45:54
+
+*means /tables timehome by hhincx.
+*means /tables timework by hhincx.
+*means /tables timeshop by hhincx.
+*means /tables timeothe by hhincx.
+*means /tables timetrav by hhincx.
+-------------------------------------------------------------------------------
+Page  14                          SPSS/PC+                              2/11/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  15                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:46:33
+
+select if (agex ge 18 and agex le 65).
+select if (workx=0 and sexx=2).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+select if (daytot=1440).
+
+compute agey=0.
+
+if (agex le 20) agey=20.
+if (agex gt 20 and agex  le 25) agey=25.
+if (agex gt 25 and agex  le 30) agey=30.
+if (agex gt 30 and agex  le 35) agey=35.
+if (agex gt 35 and agex  le 40) agey=40.
+if (agex gt 40 and agex  le 45) agey=45.
+if (agex gt 45 and agex  le 50) agey=50.
+if (agex gt 50 and agex  le 55) agey=55.
+if (agex gt 55 and agex  le 60) agey=60.
+if (agex gt 60) agey=65.
+
+means /tables timehome by agey.
+The raw data or transformation pass is proceeding  
+   1049 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  17                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                      1179.1945   200.8891     1049
+
+AGEY          20.00                        1066.0779   226.2538       77
+AGEY          25.00                        1136.7748   222.6228      111
+AGEY          30.00                        1154.9790   202.7398      143
+AGEY          35.00                        1199.5918   183.7020      147
+AGEY          40.00                        1199.4265   190.8311      136
+AGEY          45.00                        1175.4750   199.4046       80
+AGEY          50.00                        1188.5902   222.2401       61
+AGEY          55.00                        1194.4400   177.7857       75
+AGEY          60.00                        1211.0297   194.1689      101
+AGEY          65.00                        1234.2542   165.0689      118
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  18                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:48:29
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  19                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                         7.7674    58.1945     1049
+
+AGEY          20.00                           5.8701    35.5411       77
+AGEY          25.00                           7.2072    54.9904      111
+AGEY          30.00                          27.2937   116.2214      143
+AGEY          35.00                           5.5102    49.4758      147
+AGEY          40.00                            .6250     6.1294      136
+AGEY          45.00                          15.6250    74.3000       80
+AGEY          50.00                            .9836     7.6822       61
+AGEY          55.00                           6.3733    55.1947       75
+AGEY          60.00                           3.0693    30.8462      101
+AGEY          65.00                            .0000      .0000      118
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  20                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:48:34
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  21                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        35.4805    64.5431     1049
+
+AGEY          20.00                          37.3506    96.6590       77
+AGEY          25.00                          24.2252    53.8156      111
+AGEY          30.00                          37.0000    72.4213      143
+AGEY          35.00                          35.5374    56.0206      147
+AGEY          40.00                          40.5735    55.5301      136
+AGEY          45.00                          25.6250    44.3106       80
+AGEY          50.00                          46.9016    74.2412       61
+AGEY          55.00                          42.2267    79.2515       75
+AGEY          60.00                          42.4950    63.7518      101
+AGEY          65.00                          27.5508    51.5690      118
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  22                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:48:47
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  23                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       157.6492   176.7518     1049
+
+AGEY          20.00                         253.6494   224.1573       77
+AGEY          25.00                         215.5676   208.4355      111
+AGEY          30.00                         164.8462   178.8371      143
+AGEY          35.00                         144.7347   150.4452      147
+AGEY          40.00                         139.6618   172.8044      136
+AGEY          45.00                         154.3625   168.9953       80
+AGEY          50.00                         134.6393   181.4742       61
+AGEY          55.00                         131.9467   149.4248       75
+AGEY          60.00                         128.3663   165.5561      101
+AGEY          65.00                         124.1441   136.5228      118
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  24                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:49:04
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  25                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        59.9085    66.7052     1049
+
+AGEY          20.00                          77.0519    81.0177       77
+AGEY          25.00                          56.2252    55.7553      111
+AGEY          30.00                          55.8811    53.4153      143
+AGEY          35.00                          54.6259    49.5347      147
+AGEY          40.00                          59.7132    67.3132      136
+AGEY          45.00                          68.9125    89.7444       80
+AGEY          50.00                          68.8852    86.5993       61
+AGEY          55.00                          65.0133    72.4821       75
+AGEY          60.00                          55.0396    63.4342      101
+AGEY          65.00                          54.0508    66.6357      118
+
+  Total Cases =    1049
+-------------------------------------------------------------------------------
+Page  26                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:49:16
+
+*means /tables timehome by hhincx.
+*means /tables timework by hhincx.
+*means /tables timeshop by hhincx.
+*means /tables timeothe by hhincx.
+*means /tables timetrav by hhincx.
+-------------------------------------------------------------------------------
+Page  27                          SPSS/PC+                              2/11/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  28                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:49:41
+
+select if (agex ge 18 and agex le 65).
+select if (workx=1 and sexx=1).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+select if (daytot=1440).
+
+compute agey=0.
+
+if (agex le 20) agey=20.
+if (agex gt 20 and agex  le 25) agey=25.
+if (agex gt 25 and agex  le 30) agey=30.
+if (agex gt 30 and agex  le 35) agey=35.
+if (agex gt 35 and agex  le 40) agey=40.
+if (agex gt 40 and agex  le 45) agey=45.
+if (agex gt 45 and agex  le 50) agey=50.
+if (agex gt 50 and agex  le 55) agey=55.
+if (agex gt 55 and agex  le 60) agey=60.
+if (agex gt 60) agey=65.
+
+means /tables timehome by agey.
+The raw data or transformation pass is proceeding  
+   3656 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  30                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       923.2232   252.6334     3656
+
+AGEY          20.00                         979.1818   244.9472      154
+AGEY          25.00                         925.0776   258.5142      438
+AGEY          30.00                         897.4852   250.1005      608
+AGEY          35.00                         913.3218   251.3167      609
+AGEY          40.00                         922.6126   257.6435      506
+AGEY          45.00                         931.6706   256.7581      425
+AGEY          50.00                         917.9457   249.4938      350
+AGEY          55.00                         914.4500   243.8350      260
+AGEY          60.00                         961.7539   249.3848      191
+AGEY          65.00                         973.1043   239.3630      115
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  31                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:53:21
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  32                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       336.0845   276.2167     3656
+
+AGEY          20.00                         224.9545   254.5454      154
+AGEY          25.00                         317.1187   277.1764      438
+AGEY          30.00                         354.4868   279.4103      608
+AGEY          35.00                         344.5780   276.0795      609
+AGEY          40.00                         349.1719   275.1732      506
+AGEY          45.00                         333.8729   281.7207      425
+AGEY          50.00                         342.2829   271.6686      350
+AGEY          55.00                         352.4038   272.9875      260
+AGEY          60.00                         335.9948   275.9689      191
+AGEY          65.00                         309.8435   259.2969      115
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  33                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:53:45
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  34                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        13.9220    46.1658     3656
+
+AGEY          20.00                           9.0130    38.4080      154
+AGEY          25.00                          13.6689    54.7555      438
+AGEY          30.00                          13.6661    50.4543      608
+AGEY          35.00                          15.4335    50.6228      609
+AGEY          40.00                          13.6542    35.9389      506
+AGEY          45.00                          13.7012    42.7135      425
+AGEY          50.00                          11.2486    33.3294      350
+AGEY          55.00                          13.6731    36.1987      260
+AGEY          60.00                          18.7749    61.5341      191
+AGEY          65.00                          17.4435    48.1803      115
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  35                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:54:16
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  36                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.4352   150.9923     3656
+
+AGEY          20.00                         163.5909   186.3905      154
+AGEY          25.00                         118.5502   167.5537      438
+AGEY          30.00                         105.1974   158.5354      608
+AGEY          35.00                          96.4417   149.1609      609
+AGEY          40.00                          82.9822   139.6995      506
+AGEY          45.00                          91.5765   145.3355      425
+AGEY          50.00                          91.1429   143.9641      350
+AGEY          55.00                          91.6269   150.0147      260
+AGEY          60.00                          58.8848    96.5393      191
+AGEY          65.00                          74.2000   129.8591      115
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  37                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:54:47
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  38                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        69.3351    65.0494     3656
+
+AGEY          20.00                          63.2597    78.5271      154
+AGEY          25.00                          65.5845    59.8922      438
+AGEY          30.00                          69.1645    59.7706      608
+AGEY          35.00                          70.2250    71.7943      609
+AGEY          40.00                          71.5791    65.6636      506
+AGEY          45.00                          69.1788    61.4968      425
+AGEY          50.00                          77.3800    76.3928      350
+AGEY          55.00                          67.8462    53.5531      260
+AGEY          60.00                          64.5916    59.5194      191
+AGEY          65.00                          65.4087    57.3323      115
+
+  Total Cases =    3656
+-------------------------------------------------------------------------------
+Page  39                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:55:21
+
+*means /tables timehome by hhincx.
+*means /tables timework by hhincx.
+*means /tables timeshop by hhincx.
+*means /tables timeothe by hhincx.
+*means /tables timetrav by hhincx.
+-------------------------------------------------------------------------------
+Page  40                          SPSS/PC+                              2/11/97
+
+get file="d:\npts\persagg.x" .
+The SPSS/PC+ system file is read from
+    file d:\npts\persagg.x                                              
+The file was created on 11/22/96 at 12:23:02
+and is titled                        SPSS/PC+                                 
+The SPSS/PC+ system file contains
+  15609 cases, each consisting of 
+     67 variables (including system variables).
+     67 variables will be used in this session.
+-------------------------------------------------------------------------------
+Page  41                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:55:47
+
+select if (agex ge 18 and agex le 65).
+select if (workx=1 and sexx=2).
+
+compute timehome=layx0.
+compute timework=layx1+layx2.
+compute timeshop=layx3.
+compute timeothe=layx4+layx5+layx6+layx7+layx8+layx9+layx10+layx11.
+compute timetrav=ts0+ts1+ts2+ts3+ts4+ts5+ts6+ts7+ts8+ts9+ts10+ts11.
+compute daytot=timehome+timework+timeshop+timeothe+timetrav.
+select if (daytot=1440).
+
+compute agey=0.
+
+if (agex le 20) agey=20.
+if (agex gt 20 and agex  le 25) agey=25.
+if (agex gt 25 and agex  le 30) agey=30.
+if (agex gt 30 and agex  le 35) agey=35.
+if (agex gt 35 and agex  le 40) agey=40.
+if (agex gt 40 and agex  le 45) agey=45.
+if (agex gt 45 and agex  le 50) agey=50.
+if (agex gt 50 and agex  le 55) agey=55.
+if (agex gt 55 and agex  le 60) agey=60.
+if (agex gt 60) agey=65.
+
+means /tables timehome by agey.
+The raw data or transformation pass is proceeding  
+   3021 cases are written to the compressed active file.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  43                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEHOME                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       963.8222   239.7678     3021
+
+AGEY          20.00                         962.8098   238.0774      163
+AGEY          25.00                         935.8686   247.1951      411
+AGEY          30.00                         946.4901   239.8040      504
+AGEY          35.00                         983.5149   239.0648      470
+AGEY          40.00                         975.2988   238.6353      405
+AGEY          45.00                         961.5741   240.4498      371
+AGEY          50.00                         942.4528   227.6542      265
+AGEY          55.00                         989.1171   241.1596      205
+AGEY          60.00                         977.3796   225.7395      137
+AGEY          65.00                        1029.8222   246.2188       90
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  44                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:58:46
+means /tables timework by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  45                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEWORK                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                       290.3191   255.9488     3021
+
+AGEY          20.00                         243.5951   228.9801      163
+AGEY          25.00                         305.0681   256.5492      411
+AGEY          30.00                         304.4742   257.0390      504
+AGEY          35.00                         265.3021   257.4834      470
+AGEY          40.00                         286.5136   253.3088      405
+AGEY          45.00                         299.6038   263.4365      371
+AGEY          50.00                         321.8113   251.0383      265
+AGEY          55.00                         274.0390   260.3518      205
+AGEY          60.00                         297.6131   256.6645      137
+AGEY          65.00                         271.0667   254.6963       90
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  46                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 14:59:04
+means /tables timeshop by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  47                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMESHOP                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        25.5836    64.2385     3021
+
+AGEY          20.00                          22.3313    83.5940      163
+AGEY          25.00                          20.0852    63.9063      411
+AGEY          30.00                          22.5615    50.1975      504
+AGEY          35.00                          29.2234    70.1597      470
+AGEY          40.00                          25.4099    56.8116      405
+AGEY          45.00                          29.1509    60.7815      371
+AGEY          50.00                          27.9925    72.7328      265
+AGEY          55.00                          29.6488    78.8848      205
+AGEY          60.00                          24.2044    50.3101      137
+AGEY          65.00                          26.3222    63.9253       90
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  48                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 15:00:13
+means /tables timeothe by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  49                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMEOTHE                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        97.9341   146.5176     3021
+
+AGEY          20.00                         146.8466   177.9931      163
+AGEY          25.00                         110.8418   169.9214      411
+AGEY          30.00                         104.0992   145.2251      504
+AGEY          35.00                         100.0277   140.7653      470
+AGEY          40.00                          92.1728   131.6729      405
+AGEY          45.00                          87.5714   141.2342      371
+AGEY          50.00                          84.7887   140.4826      265
+AGEY          55.00                          87.8829   142.0415      205
+AGEY          60.00                          80.6861   126.9231      137
+AGEY          65.00                          61.4444   120.7528       90
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  50                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 15:00:56
+means /tables timetrav by agey.
+
+***** Given WORKSPACE allows for  6858 Cells with  1 Dimensions for MEANS.
+
+
+-------------------------------------------------------------------------------
+Page  51                          SPSS/PC+                              2/11/97
+
+Summaries of   TIMETRAV                                           
+By levels of   AGEY                                               
+
+Variable      Value  Label                      Mean    Std Dev    Cases
+
+For Entire Population                        62.3409    56.0784     3021
+
+AGEY          20.00                          64.4172    68.4328      163
+AGEY          25.00                          68.1363    74.4604      411
+AGEY          30.00                          62.3750    54.1455      504
+AGEY          35.00                          61.9319    47.8834      470
+AGEY          40.00                          60.6049    51.6364      405
+AGEY          45.00                          62.0997    51.5382      371
+AGEY          50.00                          62.9547    55.7920      265
+AGEY          55.00                          59.3122    48.9795      205
+AGEY          60.00                          60.1168    50.3967      137
+AGEY          65.00                          51.3444    43.6418       90
+
+  Total Cases =    3021
+-------------------------------------------------------------------------------
+Page  52                          SPSS/PC+                              2/11/97
+
+This procedure was completed at 15:01:16
+
+*means /tables timehome by hhincx.
+*means /tables timework by hhincx.
+*means /tables timeshop by hhincx.
+*means /tables timeothe by hhincx.
+*means /tables timetrav by hhincx.
+-------------------------------------------------------------------------------
+Page  53                          SPSS/PC+                              2/11/97
+
+FINISH.
+
+End of Include file.
+

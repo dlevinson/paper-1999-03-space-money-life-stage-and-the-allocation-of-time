@@ -1,0 +1,8 @@
+source_original,text_extract,method,status
+"/Users/dlev2617/Documents/Papers/~05-Published/Transportation/T-Money,Space,Time/ANOVA2.TXT",documentation/legacy_text_extracts/anova_results_original_word6_strings_extract.txt,strings -n 5,extracted
+"/Users/dlev2617/Documents/Papers/~05-Published/Transportation/T-Money,Space,Time/REVISED TABLE 5.doc",documentation/legacy_text_extracts/revised_table_5_choice_model_text_extract.txt,textutil,extracted
+code/legacy_choice_model_outputs/activity_duration_choice_model_alogit_output.OUT,code/legacy_choice_model_outputs/activity_duration_choice_model_alogit_output.txt,"latin-1 decode, NUL stripped, newline normalized",extracted
+code/legacy_spss_outputs/age_activity_duration_spss_output.OUT,code/legacy_spss_outputs/age_activity_duration_spss_output.txt,"latin-1 decode, NUL stripped, newline normalized",extracted
+code/legacy_spss_outputs/life_cycle_activity_duration_spss_output.OUT,code/legacy_spss_outputs/life_cycle_activity_duration_spss_output.txt,"latin-1 decode, NUL stripped, newline normalized",extracted
+code/legacy_spss_outputs/activity_duration_correlations_spss_output.OUT,code/legacy_spss_outputs/activity_duration_correlations_spss_output.txt,"latin-1 decode, NUL stripped, newline normalized",extracted
+code/legacy_spss_outputs/income_work_gender_activity_duration_spss_output.OUT,code/legacy_spss_outputs/income_work_gender_activity_duration_spss_output.txt,"latin-1 decode, NUL stripped, newline normalized",extracted

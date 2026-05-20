@@ -1,0 +1,274 @@
+Microsoft Word 6.0 Document
+Word.Document.6
+Macintosh HD:Applications:Microsoft Office:Microsoft Word 6:Templates:Normal
+David M. Levinson
+David M. Levinson
+* * *  A N A L Y S I S   O F   V A R I A N C E  * * *
+               TIMEHOME BY SEXX, WORKX, HHINCX                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                  71228593.709     18  3957144.095    68.765   .000
+  SEXX                         2385624.662      1  2385624.662    41.456   .000
+  WORKX                       55356276.489      1 55356276.489   961.948   .000
+  HHINCX                       2029758.807     16   126859.925     2.204   .004
+2-way Interactions             3192303.705     33    96736.476     1.681   .009
+  SEXX     WORKX                108460.125      1   108460.125     1.885   .170
+  SEXX     HHINCX              1730307.173     16   108144.198     1.879   .018
+  WORKX    HHINCX              1483754.937     16    92734.684     1.611   .057
+3-way Interactions              611555.231     16    38222.202      .664   .832
+  SEXX     WORKX    HHINCX      611555.231     16    38222.202      .664   .832
+Explained                     75032452.644     67  1119887.353    19.461   .000
+Residual                     465604961.528   8091    57546.034
+Total                        540637414.172   8158    66270.828
+               TIMEWORK BY SEXX, WORKX, HHINCX                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                 117467621.790     18  6525978.988   109.790   .000
+  SEXX                         3021117.976      1  3021117.976    50.826   .000
+  WORKX                       96538834.291      1 96538834.291  1624.128   .000
+  HHINCX                        860639.517     16    53789.970      .905   .563
+2-way Interactions             1331364.065     33    40344.366      .679   .918
+  SEXX     WORKX                289035.959      1   289035.959     4.863   .027
+  SEXX     HHINCX               786719.536     16    49169.971      .827   .655
+  WORKX    HHINCX               174046.221     16    10877.889      .183  1.000
+3-way Interactions              299656.985     16    18728.562      .315   .996
+  SEXX     WORKX    HHINCX      299656.985     16    18728.562      .315   .996
+Explained                    119098642.840     67  1777591.684    29.905   .000
+Residual                     480932280.913   8091    59440.401
+Total                        600030923.754   8158    73551.229
+               TIMESHOP BY SEXX, WORKX, HHINCX                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    555816.784     18    30878.710     9.923   .000
+  SEXX                          305994.072      1   305994.072    98.337   .000
+  WORKX                          98745.278      1    98745.278    31.734   .000
+  HHINCX                         94050.636     16     5878.165     1.889   .017
+2-way Interactions               86601.931     33     2624.301      .843   .722
+  SEXX     WORKX                  4407.322      1     4407.322     1.416   .234
+  SEXX     HHINCX                53460.523     16     3341.283     1.074   .374
+  WORKX    HHINCX                27409.625     16     1713.102      .551   .921
+3-way Interactions               20619.845     16     1288.740      .414   .980
+  SEXX     WORKX    HHINCX       20619.845     16     1288.740      .414   .980
+Explained                       663038.560     67     9896.098     3.180   .000
+Residual                      25176674.684   8091     3111.689
+Total                         25839713.244   8158     3167.408
+               TIMEOTHE BY SEXX, WORKX, HHINCX                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                   6093225.937     18   338512.552    13.960   .000
+  SEXX                           20167.943      1    20167.943      .832   .362
+  WORKX                        4980778.361      1  4980778.361   205.409   .000
+  HHINCX                        557623.922     16    34851.495     1.437   .114
+2-way Interactions             1614217.912     33    48915.694     2.017   .000
+  SEXX     WORKX                166969.491      1   166969.491     6.886   .009
+  SEXX     HHINCX               621067.974     16    38816.748     1.601   .060
+  WORKX    HHINCX               986763.814     16    61672.738     2.543   .001
+3-way Interactions              969287.380     16    60580.461     2.498   .001
+  SEXX     WORKX    HHINCX      969287.380     16    60580.461     2.498   .001
+Explained                      8676731.230     67   129503.451     5.341   .000
+Residual                     196191210.155   8091    24248.079
+Total                        204867941.385   8158    25112.520
+               TIMETRAV BY   SEXX, WORKX, HHINCX                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    355552.414     18    19752.912     5.153   .000
+  SEXX                           47334.018      1    47334.018    12.349   .000
+  WORKX                          25845.535      1    25845.535     6.743   .009
+  HHINCX                        234230.975     16    14639.436     3.819   .000
+2-way Interactions              168564.633     33     5108.019     1.333   .097
+  SEXX     WORKX                 17940.873      1    17940.873     4.681   .031
+  SEXX     HHINCX                95547.949     16     5971.747     1.558   .071
+  WORKX    HHINCX                43754.737     16     2734.671      .713   .783
+3-way Interactions               72353.306     16     4522.082     1.180   .275
+  SEXX     WORKX    HHINCX       72353.306     16     4522.082     1.180   .275
+Explained                       596470.352     67     8902.543     2.323   .000
+Residual                      31012519.900   8091     3832.965
+Total                         31608990.252   8158     3874.600
+   8159 Cases were processed.
+      0 Cases (   .0 PCT) were missing.
+             * * *  A N A L Y S I S   O F   V A R I A N C E  * * *
+               TIMEHOME BY RELATE                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                  11069804.903      9  1229978.323    18.921   .000
+  RELATE                      11069804.903      9  1229978.323    18.921   .000
+Explained                     11069804.903      9  1229978.323    18.921   .000
+Residual                     529546716.972   8146    65006.963
+Total                        540616521.876   8155    66292.645
+               TIMEWORK BY   RELATE                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                  10240830.603      9  1137870.067    15.721   .000
+  RELATE                      10240830.603      9  1137870.067    15.721   .000
+Explained                     10240830.603      9  1137870.067    15.721   .000
+Residual                     589587531.926   8146    72377.551
+Total                        599828362.529   8155    73553.447
+               TIMESHOP BY   RELATE                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                     18333.561      9     2037.062      .643   .761
+  RELATE                         18333.561      9     2037.062      .643   .761
+Explained                        18333.561      9     2037.062      .643   .761
+Residual                      25809298.184   8146     3168.340
+Total                         25827631.745   8155     3167.092
+               TIMEOTHE BY RELATE                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    636459.245      9    70717.694     2.823   .003
+  RELATE                        636459.245      9    70717.694     2.823   .003
+Explained                       636459.245      9    70717.694     2.823   .003
+Residual                     204082405.872   8146    25053.082
+Total                        204718865.117   8155    25103.478
+               TIMETRAV  BY   RELATE                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                     56571.233      9     6285.693     1.624   .102
+  RELATE                         56571.233      9     6285.693     1.624   .102
+Explained                        56571.233      9     6285.693     1.624   .102
+Residual                      31536671.579   8146     3871.430
+Total                         31593242.812   8155     3874.095
+* * *  A N A L Y S I S   O F   V A R I A N C E  * * *
+               TIMEHOME BY   CENSDX, POP90Y                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                   1951983.461     16   121998.966     1.833   .022
+  CENSDX                       1179442.404      8   147430.300     2.215   .024
+  POP90Y                       1190190.791      8   148773.849     2.235   .022
+2-way Interactions              971841.637      9   107982.404     1.622   .103
+  CENSDX   POP90Y               971841.637      9   107982.404     1.622   .103
+Explained                      2923825.098     25   116953.004     1.757   .011
+Residual                     385644936.817   5794    66559.361
+Total                        388568761.915   5819    66775.866
+               TIMEWORK BY   CENSDX, POP90Y                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                   1885836.305     16   117864.769     1.595   .062
+  CENSDX                       1129467.056      8   141183.382     1.910   .054
+  POP90Y                       1206085.081      8   150760.635     2.040   .038
+2-way Interactions              807059.636      9    89673.293     1.213   .281
+  CENSDX   POP90Y               807059.636      9    89673.293     1.213   .281
+Explained                      2692895.941     25   107715.838     1.458   .066
+Residual                     428177369.320   5794    73900.133
+Total                        430870265.261   5819    74045.414
+               TIMESHOP BY   CENSDX, POP90Y                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                     41869.116     16     2616.820      .907   .560
+  CENSDX                         29468.755      8     3683.594     1.277   .250
+  POP90Y                         15363.267      8     1920.408      .666   .722
+2-way Interactions               39506.853      9     4389.650     1.522   .134
+  CENSDX   POP90Y                39506.853      9     4389.650     1.522   .134
+Explained                        81375.969     25     3255.039     1.129   .299
+Residual                      16711431.150   5794     2884.265
+Total                         16792807.119   5819     2885.858
+               TIMEOTHE BY   CENSDX, POP90Y                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    576156.166     16    36009.760     1.505   .088
+  CENSDX                        353825.887      8    44228.236     1.849   .063
+  POP90Y                        277917.150      8    34739.644     1.452   .169
+2-way Interactions              172173.702      9    19130.411      .800   .616
+  CENSDX   POP90Y               172173.702      9    19130.411      .800   .616
+Explained                       748329.869     25    29933.195     1.251   .180
+Residual                     138587319.963   5794    23919.109
+Total                        139335649.831   5819    23944.948
+               TIMETRAV  BY   CENSDX, POP90Y                                           
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    145697.837     16     9106.115     2.323   .002
+  CENSDX                         36884.892      8     4610.611     1.176   .309
+  POP90Y                         72156.290      8     9019.536     2.301   .018
+2-way Interactions               79305.170      9     8811.686     2.248   .017
+  CENSDX   POP90Y                79305.170      9     8811.686     2.248   .017
+Explained                       225003.007     25     9000.120     2.296   .000
+Residual                      22711899.662   5794     3919.900
+Total                         22936902.669   5819     3941.726
+             * * *  A N A L Y S I S   O F   V A R I A N C E  * * *
+               TIMEHOME BY DENSX                                            
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                   1989448.534     12   165787.378     2.507   .003
+  DENSX                        1989448.534     12   165787.378     2.507   .003
+Explained                      1989448.534     12   165787.378     2.507   .003
+Residual                     538647965.638   8146    66124.229
+Total                        540637414.172   8158    66270.828
+               TIMEWORK BY DENSX                                            
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                   1820752.284     12   151729.357     2.066   .016
+  DENSX                        1820752.284     12   151729.357     2.066   .016
+Explained                      1820752.284     12   151729.357     2.066   .016
+Residual                     598210171.470   8146    73436.063
+Total                        600030923.754   8158    73551.229
+               TIMESHOP BY DENSX                                            
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                     44719.333     12     3726.611     1.177   .293
+  DENSX                          44719.333     12     3726.611     1.177   .293
+Explained                        44719.333     12     3726.611     1.177   .293
+Residual                      25794993.911   8146     3166.584
+Total                         25839713.244   8158     3167.408
+               TIMEOTHE BY DENSX                                            
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    425344.951     12    35445.413     1.412   .152
+  DENSX                         425344.951     12    35445.413     1.412   .152
+Explained                       425344.951     12    35445.413     1.412   .152
+Residual                     204442596.434   8146    25097.299
+Total                        204867941.385   8158    25112.520
+               TIMETRAV BY DENSX                                            
+                                    Sum of                Mean           Signif
+Source of Variation                Squares     DF       Square       F     of F
+Main Effects                    156049.832     12    13004.153     3.368   .000
+  DENSX                         156049.832     12    13004.153     3.368   .000
+Explained                       156049.832     12    13004.153     3.368   .000
+Residual                      31452940.421   8146     3861.152
+Total                         31608990.252   8158     3874.600
+Microsoft Word 6.0.1
+Normal
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5
+Heading 6
+Heading 7
+Heading 8
+Heading 9
+Default Paragraph Font
+Body Text
+Body Text 3
+Body Text Indent
+Caption
+Footer
+Header
+List 2
+List Bullet
+List Bullet 2
+List Continue
+notes
+Page Number
+Reference
+Title
+TOC 1
+TOC 2
+TOC 3
+TOC 4
+TOC 5
+TOC 6
+TOC 7
+TOC 8
+TOC 9
+David M. Levinson"Macintosh HD:Word Work File A 1030
+David M. Levinson
+Macintosh HD:ANOVA2.TXT
+Times New Roman
+Symbol
+Arial
+Monaco
+Times
+Helvetica
+Tms Rmn
+Times New Roman
+David M. Levinson
+David M. Levinson
