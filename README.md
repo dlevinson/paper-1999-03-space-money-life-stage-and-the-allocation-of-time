@@ -8,7 +8,7 @@
 
 ## Archive Status
 
-This is a READY-TO-UPLOAD/PUBLIC review package. The paper uses the public 1990/91 Nationwide Personal Transportation Survey (NPTS), transformed into activity-duration measures from Travel Day trip records. The package does not copy the raw NPTS files. It preserves the paper-specific derived workbooks, SPSS/PC+ output logs, ALOGIT output, and modern readable sidecars that were found in the local source folder.
+This is a UPLOADED review package. The paper uses the public 1990/91 Nationwide Personal Transportation Survey (NPTS), transformed into activity-duration measures from Travel Day trip records. The package does not copy the raw NPTS files. It preserves the paper-specific derived workbooks, SPSS/PC+ output logs, ALOGIT output, and modern readable sidecars that were found in the local source folder.
 
 Rechecked on 2026-05-17 06:39:08 AEST: the 13 included original package files byte-match their source files, and the source-folder correspondence, drafts, proposals, presentations, and literature-search/background files remain excluded.
 
@@ -41,7 +41,7 @@ Generated: 2026-05-17 06:39:08 AEST
 
 Generated: 2026-05-20 15:23:47 AEST
 
-- Pipeline: `READY-TO-UPLOAD/PUBLIC`
+- Pipeline: `UPLOADED`
 - Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
 - Paper reference copies are for local audit convenience and are not public-upload assets without rights review.
 - Final GitHub upload should use the manifest include statuses and the license-status note.
