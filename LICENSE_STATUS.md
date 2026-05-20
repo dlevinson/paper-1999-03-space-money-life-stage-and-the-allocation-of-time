@@ -1,6 +1,6 @@
 # License Status: Space, Money, Life-Stage, and the Allocation of Time
 
-Generated: 2026-05-20 14:46:37 AEST
+Generated: 2026-05-20 15:23:47 AEST
 
 Recorded license/access note from the verified audit row: 1990 NPTS ROSA P record lists Public Domain; publisher terms apply to the article PDF.
 
